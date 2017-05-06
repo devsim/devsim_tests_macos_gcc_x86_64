@@ -1,4 +1,4 @@
-Mac OS X 10.10 Yosemite with system Python 2.7.
-Place this directory in devsim/goldenresults as osx_10.10_x86_64/
+Anaconda Python 2.7 with MKL.
 
+Please see travis_tests.sh for an example of how to setup and run the tests.
 
