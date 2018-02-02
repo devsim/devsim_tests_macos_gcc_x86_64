@@ -33,8 +33,8 @@ set -e
 progname="\$0"
 curdir=\`dirname "\$progname"\`
 ANACONDA_PATH=${ANACONDA_PATH}
-export DYLD_INSERT_LIBRARIES=\${ANACONDA_PATH}/lib/libtcl8.5.dylib:\${ANACONDA_PATH}/lib/libmkl_rt.dylib
-export TCL_LIBRARY=\${ANACONDA_PATH}/lib/tcl8.5
+export DYLD_INSERT_LIBRARIES=\${ANACONDA_PATH}/lib/libtcl8.6.dylib:\${ANACONDA_PATH}/lib/libmkl_rt.dylib
+export TCL_LIBRARY=\${ANACONDA_PATH}/lib/tcl8.6
 # sequential really speeds things up
 export MKL_NUM_THREADS=1
 \${curdir}/../${DEVSIM_TCL} \$*
