@@ -96,238 +96,238 @@ Iteration: 18
     Region: "Silicon"	RelError: 3.14468e-09	AbsError: 8.45714e-10
       Equation: "PotentialEquation"	RelError: 3.14468e-09	AbsError: 8.45714e-10
 Iteration: 19
-  Device: "pn2d"	RelError: 1.02897e-14	AbsError: 1.01087e-16
-    Region: "Silicon"	RelError: 1.02897e-14	AbsError: 1.01087e-16
-      Equation: "PotentialEquation"	RelError: 1.02897e-14	AbsError: 1.01087e-16
+  Device: "pn2d"	RelError: 7.93806e-15	AbsError: 1.01086e-16
+    Region: "Silicon"	RelError: 7.93806e-15	AbsError: 1.01086e-16
+      Equation: "PotentialEquation"	RelError: 7.93806e-15	AbsError: 1.01086e-16
 Warning: Replacing equation with equation of the same name.
 Region: Silicon, Equation: PotentialEquation, Variable: Potential
 Region "Silicon" on device "pn2d" has equations 0:1619
 Device "pn2d" has equations 0:1619
 number of equations 1620
 Iteration: 0
-  Device: "pn2d"	RelError: 1.92185e-02	AbsError: 4.19840e+04
-    Region: "Silicon"	RelError: 1.92185e-02	AbsError: 4.19840e+04
-      Equation: "ElectronContinuityEquation"	RelError: 6.96628e-03	AbsError: 5.12000e+03
+  Device: "pn2d"	RelError: 1.92313e-02	AbsError: 4.19840e+04
+    Region: "Silicon"	RelError: 1.92313e-02	AbsError: 4.19840e+04
+      Equation: "ElectronContinuityEquation"	RelError: 6.97909e-03	AbsError: 5.12000e+03
       Equation: "HoleContinuityEquation"	RelError: 1.22522e-02	AbsError: 3.68640e+04
-      Equation: "PotentialEquation"	RelError: 2.13709e-14	AbsError: 2.70121e-16
+      Equation: "PotentialEquation"	RelError: 2.15518e-14	AbsError: 1.95345e-16
 Iteration: 1
-  Device: "pn2d"	RelError: 1.43298e-02	AbsError: 5.33773e+02
-    Region: "Silicon"	RelError: 1.43298e-02	AbsError: 5.33773e+02
-      Equation: "ElectronContinuityEquation"	RelError: 1.42921e-02	AbsError: 6.95452e+01
-      Equation: "HoleContinuityEquation"	RelError: 3.77112e-05	AbsError: 4.64227e+02
-      Equation: "PotentialEquation"	RelError: 2.72247e-14	AbsError: 1.67749e-16
-Anode	0.0	-1.65500812499e-20	-5.86085567911e-15	-5.86087222919e-15
-Cathode	0.0	0.0	2.73094597924e-20	2.73094597924e-20
+  Device: "pn2d"	RelError: 1.44895e-02	AbsError: 5.31610e+02
+    Region: "Silicon"	RelError: 1.44895e-02	AbsError: 5.31610e+02
+      Equation: "ElectronContinuityEquation"	RelError: 1.43052e-02	AbsError: 6.75489e+01
+      Equation: "HoleContinuityEquation"	RelError: 1.84300e-04	AbsError: 4.64061e+02
+      Equation: "PotentialEquation"	RelError: 4.80291e-14	AbsError: 1.54746e-16
+Anode	0.0	-1.654905273e-20	-5.86085567911e-15	-5.86087222817e-15
+Cathode	0.0	0.0	2.75986091107e-20	2.75986091107e-20
 Region "Silicon" on device "pn2d" has equations 0:1619
 Device "pn2d" has equations 0:1619
 number of equations 1620
 Iteration: 0
-  Device: "pn2d"	RelError: 2.92272e+00	AbsError: 1.28646e+16
-    Region: "Silicon"	RelError: 2.92272e+00	AbsError: 1.28646e+16
-      Equation: "ElectronContinuityEquation"	RelError: 4.90392e-01	AbsError: 5.71143e+15
-      Equation: "HoleContinuityEquation"	RelError: 4.91311e-01	AbsError: 7.15322e+15
+  Device: "pn2d"	RelError: 2.92185e+00	AbsError: 1.28646e+16
+    Region: "Silicon"	RelError: 2.92185e+00	AbsError: 1.28646e+16
+      Equation: "ElectronContinuityEquation"	RelError: 4.90407e-01	AbsError: 5.71143e+15
+      Equation: "HoleContinuityEquation"	RelError: 4.90425e-01	AbsError: 7.15322e+15
       Equation: "PotentialEquation"	RelError: 1.94102e+00	AbsError: 2.50000e-02
 Iteration: 1
-  Device: "pn2d"	RelError: 5.02092e-01	AbsError: 1.54728e+14
-    Region: "Silicon"	RelError: 5.02092e-01	AbsError: 1.54728e+14
-      Equation: "ElectronContinuityEquation"	RelError: 2.51286e-01	AbsError: 8.03012e+13
-      Equation: "HoleContinuityEquation"	RelError: 2.50560e-01	AbsError: 7.44273e+13
-      Equation: "PotentialEquation"	RelError: 2.45870e-04	AbsError: 9.32651e-05
+  Device: "pn2d"	RelError: 5.05196e-01	AbsError: 1.54729e+14
+    Region: "Silicon"	RelError: 5.05196e-01	AbsError: 1.54729e+14
+      Equation: "ElectronContinuityEquation"	RelError: 2.52667e-01	AbsError: 8.03013e+13
+      Equation: "HoleContinuityEquation"	RelError: 2.52283e-01	AbsError: 7.44274e+13
+      Equation: "PotentialEquation"	RelError: 2.45870e-04	AbsError: 9.32654e-05
 Iteration: 2
-  Device: "pn2d"	RelError: 1.05174e-02	AbsError: 2.52991e+10
-    Region: "Silicon"	RelError: 1.05174e-02	AbsError: 2.52991e+10
-      Equation: "ElectronContinuityEquation"	RelError: 7.27348e-03	AbsError: 4.12485e+09
-      Equation: "HoleContinuityEquation"	RelError: 3.24366e-03	AbsError: 2.11743e+10
-      Equation: "PotentialEquation"	RelError: 2.95481e-07	AbsError: 2.06157e-08
+  Device: "pn2d"	RelError: 7.44845e-03	AbsError: 2.52276e+10
+    Region: "Silicon"	RelError: 7.44845e-03	AbsError: 2.52276e+10
+      Equation: "ElectronContinuityEquation"	RelError: 4.22685e-03	AbsError: 4.11829e+09
+      Equation: "HoleContinuityEquation"	RelError: 3.22153e-03	AbsError: 2.11093e+10
+      Equation: "PotentialEquation"	RelError: 7.91384e-08	AbsError: 2.20081e-08
 Iteration: 3
-  Device: "pn2d"	RelError: 5.31577e-05	AbsError: 2.11312e+06
-    Region: "Silicon"	RelError: 5.31577e-05	AbsError: 2.11312e+06
-      Equation: "ElectronContinuityEquation"	RelError: 2.73254e-05	AbsError: 4.10411e+05
-      Equation: "HoleContinuityEquation"	RelError: 2.58321e-05	AbsError: 1.70271e+06
-      Equation: "PotentialEquation"	RelError: 1.29448e-10	AbsError: 2.42630e-12
+  Device: "pn2d"	RelError: 2.41046e-04	AbsError: 1.40013e+06
+    Region: "Silicon"	RelError: 2.41046e-04	AbsError: 1.40013e+06
+      Equation: "ElectronContinuityEquation"	RelError: 1.36651e-04	AbsError: 3.17123e+05
+      Equation: "HoleContinuityEquation"	RelError: 1.04394e-04	AbsError: 1.08301e+06
+      Equation: "PotentialEquation"	RelError: 6.67072e-11	AbsError: 1.25032e-12
 Iteration: 4
-  Device: "pn2d"	RelError: 2.39964e-04	AbsError: 5.72926e+02
-    Region: "Silicon"	RelError: 2.39964e-04	AbsError: 5.72926e+02
-      Equation: "ElectronContinuityEquation"	RelError: 1.35514e-04	AbsError: 6.36912e+01
-      Equation: "HoleContinuityEquation"	RelError: 1.04450e-04	AbsError: 5.09235e+02
-      Equation: "PotentialEquation"	RelError: 1.23279e-14	AbsError: 7.97282e-17
-Anode	0.025	1.50117932717e-16	-2.61429059569e-14	-2.59927880242e-14
-Cathode	0.0	-2.30926389122e-14	-1.41897684577e-16	-2.32345365968e-14
+  Device: "pn2d"	RelError: 1.04667e-04	AbsError: 5.69585e+02
+    Region: "Silicon"	RelError: 1.04667e-04	AbsError: 5.69585e+02
+      Equation: "ElectronContinuityEquation"	RelError: 2.47229e-07	AbsError: 6.36915e+01
+      Equation: "HoleContinuityEquation"	RelError: 1.04419e-04	AbsError: 5.05893e+02
+      Equation: "PotentialEquation"	RelError: 1.99930e-14	AbsError: 1.29381e-16
+Anode	0.025	1.5008381207e-16	-2.61429059569e-14	-2.59928221449e-14
+Cathode	0.0	-2.30926389122e-14	-1.41898005557e-16	-2.32345369178e-14
 Region "Silicon" on device "pn2d" has equations 0:1619
 Device "pn2d" has equations 0:1619
 number of equations 1620
 Iteration: 0
   Device: "pn2d"	RelError: 2.90681e+00	AbsError: 1.30712e+16
     Region: "Silicon"	RelError: 2.90681e+00	AbsError: 1.30712e+16
-      Equation: "ElectronContinuityEquation"	RelError: 4.90818e-01	AbsError: 5.86843e+15
+      Equation: "ElectronContinuityEquation"	RelError: 4.90823e-01	AbsError: 5.86843e+15
       Equation: "HoleContinuityEquation"	RelError: 4.90230e-01	AbsError: 7.20278e+15
       Equation: "PotentialEquation"	RelError: 1.92576e+00	AbsError: 2.50000e-02
 Iteration: 1
-  Device: "pn2d"	RelError: 5.03412e-01	AbsError: 1.54263e+14
-    Region: "Silicon"	RelError: 5.03412e-01	AbsError: 1.54263e+14
-      Equation: "ElectronContinuityEquation"	RelError: 2.51567e-01	AbsError: 6.96302e+13
-      Equation: "HoleContinuityEquation"	RelError: 2.51187e-01	AbsError: 8.46331e+13
-      Equation: "PotentialEquation"	RelError: 6.58199e-04	AbsError: 9.11175e-05
+  Device: "pn2d"	RelError: 5.04627e-01	AbsError: 1.54264e+14
+    Region: "Silicon"	RelError: 5.04627e-01	AbsError: 1.54264e+14
+      Equation: "ElectronContinuityEquation"	RelError: 2.52231e-01	AbsError: 6.96306e+13
+      Equation: "HoleContinuityEquation"	RelError: 2.51738e-01	AbsError: 8.46331e+13
+      Equation: "PotentialEquation"	RelError: 6.58331e-04	AbsError: 9.11175e-05
 Iteration: 2
-  Device: "pn2d"	RelError: 1.28579e-03	AbsError: 4.76103e+10
-    Region: "Silicon"	RelError: 1.28579e-03	AbsError: 4.76103e+10
-      Equation: "ElectronContinuityEquation"	RelError: 9.31257e-04	AbsError: 7.31870e+09
-      Equation: "HoleContinuityEquation"	RelError: 3.54368e-04	AbsError: 4.02916e+10
-      Equation: "PotentialEquation"	RelError: 1.61836e-07	AbsError: 4.24660e-08
+  Device: "pn2d"	RelError: 4.49575e-03	AbsError: 4.76918e+10
+    Region: "Silicon"	RelError: 4.49575e-03	AbsError: 4.76918e+10
+      Equation: "ElectronContinuityEquation"	RelError: 1.39508e-03	AbsError: 7.44883e+09
+      Equation: "HoleContinuityEquation"	RelError: 3.10051e-03	AbsError: 4.02430e+10
+      Equation: "PotentialEquation"	RelError: 1.64591e-07	AbsError: 4.31890e-08
 Iteration: 3
-  Device: "pn2d"	RelError: 5.20429e-05	AbsError: 3.30401e+06
-    Region: "Silicon"	RelError: 5.20429e-05	AbsError: 3.30401e+06
-      Equation: "ElectronContinuityEquation"	RelError: 1.39358e-05	AbsError: 7.63392e+05
-      Equation: "HoleContinuityEquation"	RelError: 3.81069e-05	AbsError: 2.54062e+06
-      Equation: "PotentialEquation"	RelError: 1.28494e-10	AbsError: 1.37614e-12
+  Device: "pn2d"	RelError: 1.06244e-04	AbsError: 1.52031e+06
+    Region: "Silicon"	RelError: 1.06244e-04	AbsError: 1.52031e+06
+      Equation: "ElectronContinuityEquation"	RelError: 4.74281e-05	AbsError: 8.30044e+05
+      Equation: "HoleContinuityEquation"	RelError: 5.88152e-05	AbsError: 6.90270e+05
+      Equation: "PotentialEquation"	RelError: 1.66125e-10	AbsError: 1.06495e-12
 Iteration: 4
-  Device: "pn2d"	RelError: 2.33133e-03	AbsError: 5.62345e+02
-    Region: "Silicon"	RelError: 2.33133e-03	AbsError: 5.62345e+02
-      Equation: "ElectronContinuityEquation"	RelError: 2.33127e-03	AbsError: 7.09956e+01
-      Equation: "HoleContinuityEquation"	RelError: 5.35262e-08	AbsError: 4.91350e+02
-      Equation: "PotentialEquation"	RelError: 9.38570e-15	AbsError: 1.55775e-16
-Anode	0.05	5.4436773497e-16	5.23236631921e-14	5.28680309271e-14
-Cathode	0.0	-6.2172489379e-14	-5.14514671256e-16	-6.26870040503e-14
+  Device: "pn2d"	RelError: 2.38135e-03	AbsError: 5.56694e+02
+    Region: "Silicon"	RelError: 2.38135e-03	AbsError: 5.56694e+02
+      Equation: "ElectronContinuityEquation"	RelError: 2.32237e-03	AbsError: 6.46517e+01
+      Equation: "HoleContinuityEquation"	RelError: 5.89837e-05	AbsError: 4.92042e+02
+      Equation: "PotentialEquation"	RelError: 1.79787e-14	AbsError: 1.19583e-16
+Anode	0.05	5.44366271199e-16	9.5909200127e-14	9.64535663982e-14
+Cathode	0.0	-6.2172489379e-14	-5.14514709846e-16	-6.26870040889e-14
 Region "Silicon" on device "pn2d" has equations 0:1619
 Device "pn2d" has equations 0:1619
 number of equations 1620
 Iteration: 0
   Device: "pn2d"	RelError: 3.06520e+00	AbsError: 1.32455e+16
     Region: "Silicon"	RelError: 3.06520e+00	AbsError: 1.32455e+16
-      Equation: "ElectronContinuityEquation"	RelError: 4.91077e-01	AbsError: 6.00424e+15
+      Equation: "ElectronContinuityEquation"	RelError: 4.91079e-01	AbsError: 6.00424e+15
       Equation: "HoleContinuityEquation"	RelError: 4.90851e-01	AbsError: 7.24130e+15
       Equation: "PotentialEquation"	RelError: 2.08327e+00	AbsError: 2.50000e-02
 Iteration: 1
-  Device: "pn2d"	RelError: 5.04082e-01	AbsError: 1.72120e+14
-    Region: "Silicon"	RelError: 5.04082e-01	AbsError: 1.72120e+14
-      Equation: "ElectronContinuityEquation"	RelError: 2.51763e-01	AbsError: 5.93495e+13
-      Equation: "HoleContinuityEquation"	RelError: 2.51441e-01	AbsError: 1.12771e+14
-      Equation: "PotentialEquation"	RelError: 8.78062e-04	AbsError: 1.22187e-04
+  Device: "pn2d"	RelError: 5.04075e-01	AbsError: 1.72120e+14
+    Region: "Silicon"	RelError: 5.04075e-01	AbsError: 1.72120e+14
+      Equation: "ElectronContinuityEquation"	RelError: 2.51763e-01	AbsError: 5.93494e+13
+      Equation: "HoleContinuityEquation"	RelError: 2.51434e-01	AbsError: 1.12771e+14
+      Equation: "PotentialEquation"	RelError: 8.78053e-04	AbsError: 1.22187e-04
 Iteration: 2
-  Device: "pn2d"	RelError: 1.34891e-03	AbsError: 8.40604e+10
-    Region: "Silicon"	RelError: 1.34891e-03	AbsError: 8.40604e+10
-      Equation: "ElectronContinuityEquation"	RelError: 5.19260e-04	AbsError: 1.32588e+10
-      Equation: "HoleContinuityEquation"	RelError: 8.29337e-04	AbsError: 7.08016e+10
-      Equation: "PotentialEquation"	RelError: 3.12094e-07	AbsError: 7.69263e-08
+  Device: "pn2d"	RelError: 1.36340e-03	AbsError: 8.40730e+10
+    Region: "Silicon"	RelError: 1.36340e-03	AbsError: 8.40730e+10
+      Equation: "ElectronContinuityEquation"	RelError: 5.30217e-04	AbsError: 1.32851e+10
+      Equation: "HoleContinuityEquation"	RelError: 8.32875e-04	AbsError: 7.07879e+10
+      Equation: "PotentialEquation"	RelError: 3.12682e-07	AbsError: 7.70714e-08
 Iteration: 3
-  Device: "pn2d"	RelError: 3.92735e-05	AbsError: 3.61668e+06
-    Region: "Silicon"	RelError: 3.92735e-05	AbsError: 3.61668e+06
-      Equation: "ElectronContinuityEquation"	RelError: 3.04766e-05	AbsError: 7.46267e+05
-      Equation: "HoleContinuityEquation"	RelError: 8.79690e-06	AbsError: 2.87041e+06
-      Equation: "PotentialEquation"	RelError: 5.91419e-11	AbsError: 4.19894e-13
+  Device: "pn2d"	RelError: 1.50697e-05	AbsError: 2.19073e+06
+    Region: "Silicon"	RelError: 1.50697e-05	AbsError: 2.19073e+06
+      Equation: "ElectronContinuityEquation"	RelError: 1.10447e-05	AbsError: 7.41546e+05
+      Equation: "HoleContinuityEquation"	RelError: 4.02487e-06	AbsError: 1.44918e+06
+      Equation: "PotentialEquation"	RelError: 1.86527e-10	AbsError: 1.10286e-12
 Iteration: 4
-  Device: "pn2d"	RelError: 9.53438e-04	AbsError: 5.79850e+02
-    Region: "Silicon"	RelError: 9.53438e-04	AbsError: 5.79850e+02
-      Equation: "ElectronContinuityEquation"	RelError: 9.43704e-04	AbsError: 7.18057e+01
-      Equation: "HoleContinuityEquation"	RelError: 9.73350e-06	AbsError: 5.08044e+02
-      Equation: "PotentialEquation"	RelError: 3.30768e-14	AbsError: 1.95570e-16
-Anode	0.075	1.57982326548e-15	1.48567162674e-13	1.50146985939e-13
-Cathode	0.0	-1.30045744664e-13	-1.49319402657e-15	-1.3153893869e-13
+  Device: "pn2d"	RelError: 2.16768e-03	AbsError: 5.71582e+02
+    Region: "Silicon"	RelError: 2.16768e-03	AbsError: 5.71582e+02
+      Equation: "ElectronContinuityEquation"	RelError: 9.42920e-04	AbsError: 6.42976e+01
+      Equation: "HoleContinuityEquation"	RelError: 1.22476e-03	AbsError: 5.07284e+02
+      Equation: "PotentialEquation"	RelError: 2.74995e-14	AbsError: 1.62593e-16
+Anode	0.075	1.57982344907e-15	1.34662603318e-13	1.36242426768e-13
+Cathode	0.0	-1.30045744664e-13	-1.49314279785e-15	-1.31538887462e-13
 Region "Silicon" on device "pn2d" has equations 0:1619
 Device "pn2d" has equations 0:1619
 number of equations 1620
 Iteration: 0
   Device: "pn2d"	RelError: 1.65794e+00	AbsError: 1.33867e+16
     Region: "Silicon"	RelError: 1.65794e+00	AbsError: 1.33867e+16
-      Equation: "ElectronContinuityEquation"	RelError: 4.91180e-01	AbsError: 6.11956e+15
+      Equation: "ElectronContinuityEquation"	RelError: 4.91179e-01	AbsError: 6.11956e+15
       Equation: "HoleContinuityEquation"	RelError: 4.91092e-01	AbsError: 7.26712e+15
       Equation: "PotentialEquation"	RelError: 6.75669e-01	AbsError: 2.50000e-02
 Iteration: 1
-  Device: "pn2d"	RelError: 5.04139e-01	AbsError: 2.12285e+14
-    Region: "Silicon"	RelError: 5.04139e-01	AbsError: 2.12285e+14
-      Equation: "ElectronContinuityEquation"	RelError: 2.51884e-01	AbsError: 6.70081e+13
-      Equation: "HoleContinuityEquation"	RelError: 2.51569e-01	AbsError: 1.45277e+14
-      Equation: "PotentialEquation"	RelError: 6.86042e-04	AbsError: 1.57979e-04
+  Device: "pn2d"	RelError: 5.04255e-01	AbsError: 2.12285e+14
+    Region: "Silicon"	RelError: 5.04255e-01	AbsError: 2.12285e+14
+      Equation: "ElectronContinuityEquation"	RelError: 2.51882e-01	AbsError: 6.70081e+13
+      Equation: "HoleContinuityEquation"	RelError: 2.51687e-01	AbsError: 1.45277e+14
+      Equation: "PotentialEquation"	RelError: 6.86041e-04	AbsError: 1.57978e-04
 Iteration: 2
-  Device: "pn2d"	RelError: 1.08647e-03	AbsError: 1.37392e+11
-    Region: "Silicon"	RelError: 1.08647e-03	AbsError: 1.37392e+11
-      Equation: "ElectronContinuityEquation"	RelError: 6.91264e-04	AbsError: 2.45060e+10
-      Equation: "HoleContinuityEquation"	RelError: 3.94669e-04	AbsError: 1.12886e+11
-      Equation: "PotentialEquation"	RelError: 5.40463e-07	AbsError: 1.24455e-07
+  Device: "pn2d"	RelError: 1.02763e-03	AbsError: 1.37475e+11
+    Region: "Silicon"	RelError: 1.02763e-03	AbsError: 1.37475e+11
+      Equation: "ElectronContinuityEquation"	RelError: 6.31648e-04	AbsError: 2.45067e+10
+      Equation: "HoleContinuityEquation"	RelError: 3.95445e-04	AbsError: 1.12968e+11
+      Equation: "PotentialEquation"	RelError: 5.37821e-07	AbsError: 1.23847e-07
 Iteration: 3
-  Device: "pn2d"	RelError: 5.35063e-04	AbsError: 2.98552e+06
-    Region: "Silicon"	RelError: 5.35063e-04	AbsError: 2.98552e+06
-      Equation: "ElectronContinuityEquation"	RelError: 1.51580e-05	AbsError: 1.71636e+05
-      Equation: "HoleContinuityEquation"	RelError: 5.19905e-04	AbsError: 2.81388e+06
-      Equation: "PotentialEquation"	RelError: 2.48406e-11	AbsError: 6.50765e-13
+  Device: "pn2d"	RelError: 7.79937e-04	AbsError: 1.39973e+06
+    Region: "Silicon"	RelError: 7.79937e-04	AbsError: 1.39973e+06
+      Equation: "ElectronContinuityEquation"	RelError: 7.67126e-04	AbsError: 8.08976e+05
+      Equation: "HoleContinuityEquation"	RelError: 1.28111e-05	AbsError: 5.90752e+05
+      Equation: "PotentialEquation"	RelError: 2.61769e-11	AbsError: 5.98451e-13
 Iteration: 4
-  Device: "pn2d"	RelError: 5.27191e-04	AbsError: 5.92972e+02
-    Region: "Silicon"	RelError: 5.27191e-04	AbsError: 5.92972e+02
-      Equation: "ElectronContinuityEquation"	RelError: 7.98594e-06	AbsError: 8.33543e+01
-      Equation: "HoleContinuityEquation"	RelError: 5.19205e-04	AbsError: 5.09618e+02
-      Equation: "PotentialEquation"	RelError: 2.54408e-15	AbsError: 1.50560e-16
-Anode	0.1	4.29932983997e-15	2.64758805014e-13	2.69058134854e-13
-Cathode	0.0	-2.48479042804e-13	-4.06349424e-15	-2.52542537044e-13
+  Device: "pn2d"	RelError: 2.37573e-05	AbsError: 5.90514e+02
+    Region: "Silicon"	RelError: 2.37573e-05	AbsError: 5.90514e+02
+      Equation: "ElectronContinuityEquation"	RelError: 1.61866e-05	AbsError: 8.11569e+01
+      Equation: "HoleContinuityEquation"	RelError: 7.57076e-06	AbsError: 5.09357e+02
+      Equation: "PotentialEquation"	RelError: 9.30989e-15	AbsError: 2.25076e-16
+Anode	0.1	4.29932988313e-15	2.22890181267e-13	2.2718951115e-13
+Cathode	0.0	-2.48479042804e-13	-4.06349266297e-15	-2.52542535467e-13
 Region "Silicon" on device "pn2d" has equations 0:1619
 Device "pn2d" has equations 0:1619
 number of equations 1620
 Iteration: 0
   Device: "pn2d"	RelError: 1.86142e+00	AbsError: 1.34926e+16
     Region: "Silicon"	RelError: 1.86142e+00	AbsError: 1.34926e+16
-      Equation: "ElectronContinuityEquation"	RelError: 4.91348e-01	AbsError: 6.21451e+15
+      Equation: "ElectronContinuityEquation"	RelError: 4.91347e-01	AbsError: 6.21451e+15
       Equation: "HoleContinuityEquation"	RelError: 4.91186e-01	AbsError: 7.27812e+15
       Equation: "PotentialEquation"	RelError: 8.78883e-01	AbsError: 2.50000e-02
 Iteration: 1
-  Device: "pn2d"	RelError: 5.04537e-01	AbsError: 2.69852e+14
-    Region: "Silicon"	RelError: 5.04537e-01	AbsError: 2.69852e+14
+  Device: "pn2d"	RelError: 5.04571e-01	AbsError: 2.69852e+14
+    Region: "Silicon"	RelError: 5.04571e-01	AbsError: 2.69852e+14
       Equation: "ElectronContinuityEquation"	RelError: 2.51967e-01	AbsError: 9.02396e+13
-      Equation: "HoleContinuityEquation"	RelError: 2.51655e-01	AbsError: 1.79613e+14
-      Equation: "PotentialEquation"	RelError: 9.15396e-04	AbsError: 1.95620e-04
+      Equation: "HoleContinuityEquation"	RelError: 2.51689e-01	AbsError: 1.79612e+14
+      Equation: "PotentialEquation"	RelError: 9.15401e-04	AbsError: 1.95621e-04
 Iteration: 2
-  Device: "pn2d"	RelError: 1.13263e-03	AbsError: 2.08495e+11
-    Region: "Silicon"	RelError: 1.13263e-03	AbsError: 2.08495e+11
-      Equation: "ElectronContinuityEquation"	RelError: 7.45900e-04	AbsError: 4.79361e+10
-      Equation: "HoleContinuityEquation"	RelError: 3.85901e-04	AbsError: 1.60559e+11
-      Equation: "PotentialEquation"	RelError: 8.26897e-07	AbsError: 1.76708e-07
+  Device: "pn2d"	RelError: 1.12872e-03	AbsError: 2.08384e+11
+    Region: "Silicon"	RelError: 1.12872e-03	AbsError: 2.08384e+11
+      Equation: "ElectronContinuityEquation"	RelError: 7.47614e-04	AbsError: 4.79319e+10
+      Equation: "HoleContinuityEquation"	RelError: 3.80280e-04	AbsError: 1.60452e+11
+      Equation: "PotentialEquation"	RelError: 8.29599e-07	AbsError: 1.77286e-07
 Iteration: 3
-  Device: "pn2d"	RelError: 3.18905e-04	AbsError: 3.78919e+06
-    Region: "Silicon"	RelError: 3.18905e-04	AbsError: 3.78919e+06
-      Equation: "ElectronContinuityEquation"	RelError: 3.10227e-04	AbsError: 1.13774e+06
-      Equation: "HoleContinuityEquation"	RelError: 8.67719e-06	AbsError: 2.65145e+06
-      Equation: "PotentialEquation"	RelError: 3.37437e-11	AbsError: 1.02983e-12
+  Device: "pn2d"	RelError: 3.06930e-05	AbsError: 1.50973e+07
+    Region: "Silicon"	RelError: 3.06930e-05	AbsError: 1.50973e+07
+      Equation: "ElectronContinuityEquation"	RelError: 1.17333e-05	AbsError: 2.31979e+06
+      Equation: "HoleContinuityEquation"	RelError: 1.89597e-05	AbsError: 1.27775e+07
+      Equation: "PotentialEquation"	RelError: 5.81838e-11	AbsError: 7.60895e-12
 Iteration: 4
-  Device: "pn2d"	RelError: 3.21030e-04	AbsError: 5.48727e+02
-    Region: "Silicon"	RelError: 3.21030e-04	AbsError: 5.48727e+02
-      Equation: "ElectronContinuityEquation"	RelError: 3.10750e-04	AbsError: 6.34052e+01
-      Equation: "HoleContinuityEquation"	RelError: 1.02804e-05	AbsError: 4.85322e+02
-      Equation: "PotentialEquation"	RelError: 1.31878e-15	AbsError: 1.15848e-16
-Anode	0.125	1.1442547444e-14	4.33578201619e-13	4.45020749062e-13
-Cathode	0.0	-4.24976879911e-13	-1.08141363768e-14	-4.35791016287e-13
+  Device: "pn2d"	RelError: 2.30736e-05	AbsError: 5.49784e+02
+    Region: "Silicon"	RelError: 2.30736e-05	AbsError: 5.49784e+02
+      Equation: "ElectronContinuityEquation"	RelError: 1.27932e-05	AbsError: 6.40875e+01
+      Equation: "HoleContinuityEquation"	RelError: 1.02804e-05	AbsError: 4.85697e+02
+      Equation: "PotentialEquation"	RelError: 1.70022e-14	AbsError: 2.40504e-16
+Anode	0.125	1.1442456624e-14	4.15621509367e-13	4.27063965991e-13
+Cathode	0.0	-4.24976879911e-13	-1.08141384475e-14	-4.35791018358e-13
 Region "Silicon" on device "pn2d" has equations 0:1619
 Device "pn2d" has equations 0:1619
 number of equations 1620
 Iteration: 0
-  Device: "pn2d"	RelError: 8.18112e+00	AbsError: 1.35607e+16
-    Region: "Silicon"	RelError: 8.18112e+00	AbsError: 1.35607e+16
-      Equation: "ElectronContinuityEquation"	RelError: 4.91246e-01	AbsError: 6.28879e+15
+  Device: "pn2d"	RelError: 8.18113e+00	AbsError: 1.35607e+16
+    Region: "Silicon"	RelError: 8.18113e+00	AbsError: 1.35607e+16
+      Equation: "ElectronContinuityEquation"	RelError: 4.91250e-01	AbsError: 6.28879e+15
       Equation: "HoleContinuityEquation"	RelError: 4.91222e-01	AbsError: 7.27187e+15
       Equation: "PotentialEquation"	RelError: 7.19866e+00	AbsError: 2.50000e-02
 Iteration: 1
-  Device: "pn2d"	RelError: 5.06624e-01	AbsError: 3.29837e+14
-    Region: "Silicon"	RelError: 5.06624e-01	AbsError: 3.29837e+14
-      Equation: "ElectronContinuityEquation"	RelError: 2.52042e-01	AbsError: 1.18026e+14
-      Equation: "HoleContinuityEquation"	RelError: 2.51710e-01	AbsError: 2.11812e+14
-      Equation: "PotentialEquation"	RelError: 2.87259e-03	AbsError: 2.30656e-04
+  Device: "pn2d"	RelError: 5.06671e-01	AbsError: 3.29837e+14
+    Region: "Silicon"	RelError: 5.06671e-01	AbsError: 3.29837e+14
+      Equation: "ElectronContinuityEquation"	RelError: 2.52041e-01	AbsError: 1.18025e+14
+      Equation: "HoleContinuityEquation"	RelError: 2.51722e-01	AbsError: 2.11812e+14
+      Equation: "PotentialEquation"	RelError: 2.90831e-03	AbsError: 2.30654e-04
 Iteration: 2
-  Device: "pn2d"	RelError: 1.41169e-03	AbsError: 2.84103e+11
-    Region: "Silicon"	RelError: 1.41169e-03	AbsError: 2.84103e+11
-      Equation: "ElectronContinuityEquation"	RelError: 8.58861e-04	AbsError: 8.43587e+10
-      Equation: "HoleContinuityEquation"	RelError: 5.17540e-04	AbsError: 1.99744e+11
-      Equation: "PotentialEquation"	RelError: 3.52894e-05	AbsError: 2.21165e-07
+  Device: "pn2d"	RelError: 1.40099e-03	AbsError: 2.83712e+11
+    Region: "Silicon"	RelError: 1.40099e-03	AbsError: 2.83712e+11
+      Equation: "ElectronContinuityEquation"	RelError: 8.59609e-04	AbsError: 8.36985e+10
+      Equation: "HoleContinuityEquation"	RelError: 5.40258e-04	AbsError: 2.00014e+11
+      Equation: "PotentialEquation"	RelError: 1.11902e-06	AbsError: 2.20098e-07
 Iteration: 3
-  Device: "pn2d"	RelError: 9.40260e-05	AbsError: 4.36907e+07
-    Region: "Silicon"	RelError: 9.40260e-05	AbsError: 4.36907e+07
-      Equation: "ElectronContinuityEquation"	RelError: 1.48931e-06	AbsError: 2.63898e+06
-      Equation: "HoleContinuityEquation"	RelError: 9.25358e-05	AbsError: 4.10518e+07
-      Equation: "PotentialEquation"	RelError: 8.65075e-10	AbsError: 1.49690e-12
+  Device: "pn2d"	RelError: 3.91416e-06	AbsError: 2.03958e+07
+    Region: "Silicon"	RelError: 3.91416e-06	AbsError: 2.03958e+07
+      Equation: "ElectronContinuityEquation"	RelError: 1.09944e-06	AbsError: 4.79969e+06
+      Equation: "HoleContinuityEquation"	RelError: 2.81427e-06	AbsError: 1.55962e+07
+      Equation: "PotentialEquation"	RelError: 4.57933e-10	AbsError: 1.36771e-11
 Iteration: 4
-  Device: "pn2d"	RelError: 9.25088e-05	AbsError: 5.74974e+02
-    Region: "Silicon"	RelError: 9.25088e-05	AbsError: 5.74974e+02
-      Equation: "ElectronContinuityEquation"	RelError: 1.70777e-08	AbsError: 6.38158e+01
-      Equation: "HoleContinuityEquation"	RelError: 9.24917e-05	AbsError: 5.11158e+02
-      Equation: "PotentialEquation"	RelError: 1.06359e-13	AbsError: 1.84040e-16
-Anode	0.15	3.02036786281e-14	7.27616992422e-13	7.5782067105e-13
-Cathode	0.0	-7.28527597432e-13	-2.85436788526e-14	-7.57071276284e-13
+  Device: "pn2d"	RelError: 5.66436e-06	AbsError: 5.78606e+02
+    Region: "Silicon"	RelError: 5.66436e-06	AbsError: 5.78606e+02
+      Equation: "ElectronContinuityEquation"	RelError: 1.80806e-08	AbsError: 6.72028e+01
+      Equation: "HoleContinuityEquation"	RelError: 5.64627e-06	AbsError: 5.11403e+02
+      Equation: "PotentialEquation"	RelError: 2.83910e-14	AbsError: 1.50535e-16
+Anode	0.15	3.02036785879e-14	7.30241136457e-13	7.60444815045e-13
+Cathode	0.0	-7.28527597432e-13	-2.85436766931e-14	-7.57071274125e-13
 Region "Silicon" on device "pn2d" has equations 0:1619
 Device "pn2d" has equations 0:1619
 number of equations 1620
@@ -338,31 +338,31 @@ Iteration: 0
       Equation: "HoleContinuityEquation"	RelError: 4.91245e-01	AbsError: 7.24621e+15
       Equation: "PotentialEquation"	RelError: 1.16203e+00	AbsError: 2.50000e-02
 Iteration: 1
-  Device: "pn2d"	RelError: 5.05313e-01	AbsError: 3.86290e+14
-    Region: "Silicon"	RelError: 5.05313e-01	AbsError: 3.86290e+14
-      Equation: "ElectronContinuityEquation"	RelError: 2.52108e-01	AbsError: 1.48854e+14
+  Device: "pn2d"	RelError: 5.05314e-01	AbsError: 3.86287e+14
+    Region: "Silicon"	RelError: 5.05314e-01	AbsError: 3.86287e+14
+      Equation: "ElectronContinuityEquation"	RelError: 2.52109e-01	AbsError: 1.48850e+14
       Equation: "HoleContinuityEquation"	RelError: 2.51765e-01	AbsError: 2.37437e+14
       Equation: "PotentialEquation"	RelError: 1.44040e-03	AbsError: 2.58085e-04
 Iteration: 2
-  Device: "pn2d"	RelError: 1.57284e-03	AbsError: 3.47661e+11
-    Region: "Silicon"	RelError: 1.57284e-03	AbsError: 3.47661e+11
-      Equation: "ElectronContinuityEquation"	RelError: 9.53122e-04	AbsError: 1.32083e+11
-      Equation: "HoleContinuityEquation"	RelError: 6.18388e-04	AbsError: 2.15578e+11
-      Equation: "PotentialEquation"	RelError: 1.32989e-06	AbsError: 2.38284e-07
+  Device: "pn2d"	RelError: 1.57375e-03	AbsError: 3.44370e+11
+    Region: "Silicon"	RelError: 1.57375e-03	AbsError: 3.44370e+11
+      Equation: "ElectronContinuityEquation"	RelError: 9.53456e-04	AbsError: 1.28646e+11
+      Equation: "HoleContinuityEquation"	RelError: 6.18971e-04	AbsError: 2.15724e+11
+      Equation: "PotentialEquation"	RelError: 1.32749e-06	AbsError: 2.37854e-07
 Iteration: 3
-  Device: "pn2d"	RelError: 5.48295e-05	AbsError: 3.60629e+06
-    Region: "Silicon"	RelError: 5.48295e-05	AbsError: 3.60629e+06
-      Equation: "ElectronContinuityEquation"	RelError: 5.07444e-05	AbsError: 1.35100e+06
-      Equation: "HoleContinuityEquation"	RelError: 4.08496e-06	AbsError: 2.25529e+06
-      Equation: "PotentialEquation"	RelError: 1.53527e-10	AbsError: 1.63865e-12
+  Device: "pn2d"	RelError: 5.33108e-05	AbsError: 2.61607e+07
+    Region: "Silicon"	RelError: 5.33108e-05	AbsError: 2.61607e+07
+      Equation: "ElectronContinuityEquation"	RelError: 5.15788e-05	AbsError: 1.16439e+07
+      Equation: "HoleContinuityEquation"	RelError: 1.73194e-06	AbsError: 1.45168e+07
+      Equation: "PotentialEquation"	RelError: 4.98431e-11	AbsError: 1.50988e-11
 Iteration: 4
-  Device: "pn2d"	RelError: 1.67409e-06	AbsError: 5.45652e+02
-    Region: "Silicon"	RelError: 1.67409e-06	AbsError: 5.45652e+02
-      Equation: "ElectronContinuityEquation"	RelError: 6.61234e-07	AbsError: 8.38815e+01
-      Equation: "HoleContinuityEquation"	RelError: 1.01285e-06	AbsError: 4.61771e+02
-      Equation: "PotentialEquation"	RelError: 1.88654e-14	AbsError: 2.52838e-16
-Anode	0.175	7.94800548108e-14	1.21672957543e-12	1.29620963024e-12
-Cathode	0.0	-1.22141548456e-12	-7.51079734677e-14	-1.29652345803e-12
+  Device: "pn2d"	RelError: 2.39991e-06	AbsError: 5.27955e+02
+    Region: "Silicon"	RelError: 2.39991e-06	AbsError: 5.27955e+02
+      Equation: "ElectronContinuityEquation"	RelError: 1.34312e-06	AbsError: 6.64143e+01
+      Equation: "HoleContinuityEquation"	RelError: 1.05680e-06	AbsError: 4.61540e+02
+      Equation: "PotentialEquation"	RelError: 6.98415e-15	AbsError: 1.74508e-16
+Anode	0.175	7.94799557754e-14	1.20156758331e-12	1.28104753908e-12
+Cathode	0.0	-1.22141548456e-12	-7.51079735423e-14	-1.2965234581e-12
 Region "Silicon" on device "pn2d" has equations 0:1619
 Device "pn2d" has equations 0:1619
 number of equations 1620
@@ -373,31 +373,31 @@ Iteration: 0
       Equation: "HoleContinuityEquation"	RelError: 4.91256e-01	AbsError: 7.20004e+15
       Equation: "PotentialEquation"	RelError: 5.37364e-01	AbsError: 2.50000e-02
 Iteration: 1
-  Device: "pn2d"	RelError: 5.05651e-01	AbsError: 4.32900e+14
-    Region: "Silicon"	RelError: 5.05651e-01	AbsError: 4.32900e+14
-      Equation: "ElectronContinuityEquation"	RelError: 2.52162e-01	AbsError: 1.79806e+14
+  Device: "pn2d"	RelError: 5.05651e-01	AbsError: 4.32902e+14
+    Region: "Silicon"	RelError: 5.05651e-01	AbsError: 4.32902e+14
+      Equation: "ElectronContinuityEquation"	RelError: 2.52162e-01	AbsError: 1.79808e+14
       Equation: "HoleContinuityEquation"	RelError: 2.51789e-01	AbsError: 2.53094e+14
-      Equation: "PotentialEquation"	RelError: 1.70079e-03	AbsError: 2.74041e-04
+      Equation: "PotentialEquation"	RelError: 1.70080e-03	AbsError: 2.74042e-04
 Iteration: 2
-  Device: "pn2d"	RelError: 1.71255e-03	AbsError: 3.80443e+11
-    Region: "Silicon"	RelError: 1.71255e-03	AbsError: 3.80443e+11
-      Equation: "ElectronContinuityEquation"	RelError: 1.00927e-03	AbsError: 1.79624e+11
-      Equation: "HoleContinuityEquation"	RelError: 7.01818e-04	AbsError: 2.00819e+11
-      Equation: "PotentialEquation"	RelError: 1.46286e-06	AbsError: 2.21637e-07
+  Device: "pn2d"	RelError: 1.71635e-03	AbsError: 3.82548e+11
+    Region: "Silicon"	RelError: 1.71635e-03	AbsError: 3.82548e+11
+      Equation: "ElectronContinuityEquation"	RelError: 1.00927e-03	AbsError: 1.81723e+11
+      Equation: "HoleContinuityEquation"	RelError: 7.05625e-04	AbsError: 2.00825e+11
+      Equation: "PotentialEquation"	RelError: 1.45723e-06	AbsError: 2.21621e-07
 Iteration: 3
-  Device: "pn2d"	RelError: 3.80200e-05	AbsError: 3.55788e+06
-    Region: "Silicon"	RelError: 3.80200e-05	AbsError: 3.55788e+06
-      Equation: "ElectronContinuityEquation"	RelError: 2.12808e-05	AbsError: 1.10870e+06
-      Equation: "HoleContinuityEquation"	RelError: 1.67390e-05	AbsError: 2.44918e+06
-      Equation: "PotentialEquation"	RelError: 1.31249e-10	AbsError: 3.02712e-12
+  Device: "pn2d"	RelError: 1.69670e-05	AbsError: 2.38987e+07
+    Region: "Silicon"	RelError: 1.69670e-05	AbsError: 2.38987e+07
+      Equation: "ElectronContinuityEquation"	RelError: 9.53784e-07	AbsError: 1.57169e+07
+      Equation: "HoleContinuityEquation"	RelError: 1.60132e-05	AbsError: 8.18183e+06
+      Equation: "PotentialEquation"	RelError: 2.69115e-11	AbsError: 5.63129e-12
 Iteration: 4
-  Device: "pn2d"	RelError: 3.71535e-05	AbsError: 6.11278e+02
-    Region: "Silicon"	RelError: 3.71535e-05	AbsError: 6.11278e+02
-      Equation: "ElectronContinuityEquation"	RelError: 2.07037e-05	AbsError: 1.04646e+02
-      Equation: "HoleContinuityEquation"	RelError: 1.64498e-05	AbsError: 5.06632e+02
-      Equation: "PotentialEquation"	RelError: 1.06210e-14	AbsError: 2.44960e-16
-Anode	0.2	2.08903908013e-13	2.0842737918e-12	2.29317769981e-12
-Cathode	0.0	-2.08566598152e-12	-1.97401871616e-13	-2.28306785314e-12
+  Device: "pn2d"	RelError: 1.79963e-05	AbsError: 5.70884e+02
+    Region: "Silicon"	RelError: 1.79963e-05	AbsError: 5.70884e+02
+      Equation: "ElectronContinuityEquation"	RelError: 1.54617e-06	AbsError: 6.42607e+01
+      Equation: "HoleContinuityEquation"	RelError: 1.64502e-05	AbsError: 5.06623e+02
+      Equation: "PotentialEquation"	RelError: 4.52053e-15	AbsError: 1.26875e-16
+Anode	0.2	2.08903808397e-13	2.066814507e-12	2.2757183154e-12
+Cathode	0.0	-2.08566598152e-12	-1.97401784518e-13	-2.28306776604e-12
 Region "Silicon" on device "pn2d" has equations 0:1619
 Device "pn2d" has equations 0:1619
 number of equations 1620
@@ -408,31 +408,31 @@ Iteration: 0
       Equation: "HoleContinuityEquation"	RelError: 4.91260e-01	AbsError: 7.13411e+15
       Equation: "PotentialEquation"	RelError: 3.49348e-01	AbsError: 2.50000e-02
 Iteration: 1
-  Device: "pn2d"	RelError: 5.06069e-01	AbsError: 4.64632e+14
-    Region: "Silicon"	RelError: 5.06069e-01	AbsError: 4.64632e+14
-      Equation: "ElectronContinuityEquation"	RelError: 2.52195e-01	AbsError: 2.06969e+14
-      Equation: "HoleContinuityEquation"	RelError: 2.51820e-01	AbsError: 2.57663e+14
-      Equation: "PotentialEquation"	RelError: 2.05400e-03	AbsError: 2.77123e-04
+  Device: "pn2d"	RelError: 5.06068e-01	AbsError: 4.64634e+14
+    Region: "Silicon"	RelError: 5.06068e-01	AbsError: 4.64634e+14
+      Equation: "ElectronContinuityEquation"	RelError: 2.52195e-01	AbsError: 2.06971e+14
+      Equation: "HoleContinuityEquation"	RelError: 2.51819e-01	AbsError: 2.57664e+14
+      Equation: "PotentialEquation"	RelError: 2.05387e-03	AbsError: 2.77122e-04
 Iteration: 2
-  Device: "pn2d"	RelError: 1.81436e-03	AbsError: 4.31770e+11
-    Region: "Silicon"	RelError: 1.81436e-03	AbsError: 4.31770e+11
-      Equation: "ElectronContinuityEquation"	RelError: 1.01843e-03	AbsError: 2.19221e+11
-      Equation: "HoleContinuityEquation"	RelError: 7.93987e-04	AbsError: 2.12549e+11
-      Equation: "PotentialEquation"	RelError: 1.93994e-06	AbsError: 2.45171e-07
+  Device: "pn2d"	RelError: 1.81364e-03	AbsError: 4.37787e+11
+    Region: "Silicon"	RelError: 1.81364e-03	AbsError: 4.37787e+11
+      Equation: "ElectronContinuityEquation"	RelError: 1.01837e-03	AbsError: 2.20305e+11
+      Equation: "HoleContinuityEquation"	RelError: 7.91500e-04	AbsError: 2.17482e+11
+      Equation: "PotentialEquation"	RelError: 3.77026e-06	AbsError: 2.34266e-07
 Iteration: 3
-  Device: "pn2d"	RelError: 1.85616e-06	AbsError: 1.39699e+07
-    Region: "Silicon"	RelError: 1.85616e-06	AbsError: 1.39699e+07
-      Equation: "ElectronContinuityEquation"	RelError: 8.49361e-07	AbsError: 7.08230e+06
-      Equation: "HoleContinuityEquation"	RelError: 1.00678e-06	AbsError: 6.88757e+06
-      Equation: "PotentialEquation"	RelError: 2.10307e-11	AbsError: 9.57659e-13
+  Device: "pn2d"	RelError: 8.29110e-06	AbsError: 1.51778e+07
+    Region: "Silicon"	RelError: 8.29110e-06	AbsError: 1.51778e+07
+      Equation: "ElectronContinuityEquation"	RelError: 7.44774e-06	AbsError: 5.71232e+06
+      Equation: "HoleContinuityEquation"	RelError: 8.43328e-07	AbsError: 9.46546e+06
+      Equation: "PotentialEquation"	RelError: 3.69074e-11	AbsError: 4.66439e-12
 Iteration: 4
-  Device: "pn2d"	RelError: 1.03387e-06	AbsError: 5.41194e+02
-    Region: "Silicon"	RelError: 1.03387e-06	AbsError: 5.41194e+02
-      Equation: "ElectronContinuityEquation"	RelError: 1.68984e-07	AbsError: 9.08538e+01
-      Equation: "HoleContinuityEquation"	RelError: 8.64885e-07	AbsError: 4.50340e+02
-      Equation: "PotentialEquation"	RelError: 4.91944e-15	AbsError: 2.69558e-16
-Anode	0.225	5.48833562996e-13	3.60945845475e-12	4.15829201775e-12
-Cathode	0.0	-3.6338784394e-12	-5.18585939016e-13	-4.15246437841e-12
+  Device: "pn2d"	RelError: 8.78431e-06	AbsError: 5.19766e+02
+    Region: "Silicon"	RelError: 8.78431e-06	AbsError: 5.19766e+02
+      Equation: "ElectronContinuityEquation"	RelError: 8.42678e-06	AbsError: 6.93193e+01
+      Equation: "HoleContinuityEquation"	RelError: 3.57528e-07	AbsError: 4.50447e+02
+      Equation: "PotentialEquation"	RelError: 2.40238e-15	AbsError: 1.55766e-16
+Anode	0.225	5.48833561871e-13	3.61929452656e-12	4.16812808844e-12
+Cathode	0.0	-3.6338784394e-12	-5.18585938581e-13	-4.15246437798e-12
 Region "Silicon" on device "pn2d" has equations 0:1619
 Device "pn2d" has equations 0:1619
 number of equations 1620
@@ -443,78 +443,78 @@ Iteration: 0
       Equation: "HoleContinuityEquation"	RelError: 4.91262e-01	AbsError: 7.05154e+15
       Equation: "PotentialEquation"	RelError: 2.58712e-01	AbsError: 2.50000e-02
 Iteration: 1
-  Device: "pn2d"	RelError: 5.06636e-01	AbsError: 4.82586e+14
-    Region: "Silicon"	RelError: 5.06636e-01	AbsError: 4.82586e+14
-      Equation: "ElectronContinuityEquation"	RelError: 2.52202e-01	AbsError: 2.26494e+14
-      Equation: "HoleContinuityEquation"	RelError: 2.51846e-01	AbsError: 2.56091e+14
-      Equation: "PotentialEquation"	RelError: 2.58794e-03	AbsError: 2.81191e-04
+  Device: "pn2d"	RelError: 5.06636e-01	AbsError: 4.82565e+14
+    Region: "Silicon"	RelError: 5.06636e-01	AbsError: 4.82565e+14
+      Equation: "ElectronContinuityEquation"	RelError: 2.52202e-01	AbsError: 2.26476e+14
+      Equation: "HoleContinuityEquation"	RelError: 2.51846e-01	AbsError: 2.56089e+14
+      Equation: "PotentialEquation"	RelError: 2.58800e-03	AbsError: 2.81197e-04
 Iteration: 2
-  Device: "pn2d"	RelError: 1.99305e-03	AbsError: 4.54972e+11
-    Region: "Silicon"	RelError: 1.99305e-03	AbsError: 4.54972e+11
-      Equation: "ElectronContinuityEquation"	RelError: 1.12829e-03	AbsError: 2.30794e+11
-      Equation: "HoleContinuityEquation"	RelError: 8.62509e-04	AbsError: 2.24179e+11
-      Equation: "PotentialEquation"	RelError: 2.24889e-06	AbsError: 2.53512e-07
+  Device: "pn2d"	RelError: 1.99192e-03	AbsError: 4.35811e+11
+    Region: "Silicon"	RelError: 1.99192e-03	AbsError: 4.35811e+11
+      Equation: "ElectronContinuityEquation"	RelError: 1.12792e-03	AbsError: 2.12608e+11
+      Equation: "HoleContinuityEquation"	RelError: 8.61722e-04	AbsError: 2.23203e+11
+      Equation: "PotentialEquation"	RelError: 2.27699e-06	AbsError: 3.04276e-07
 Iteration: 3
-  Device: "pn2d"	RelError: 4.05158e-06	AbsError: 7.14747e+07
-    Region: "Silicon"	RelError: 4.05158e-06	AbsError: 7.14747e+07
-      Equation: "ElectronContinuityEquation"	RelError: 2.31274e-06	AbsError: 2.94285e+07
-      Equation: "HoleContinuityEquation"	RelError: 1.73734e-06	AbsError: 4.20463e+07
-      Equation: "PotentialEquation"	RelError: 1.49073e-09	AbsError: 1.36578e-10
+  Device: "pn2d"	RelError: 4.48882e-06	AbsError: 1.39201e+08
+    Region: "Silicon"	RelError: 4.48882e-06	AbsError: 1.39201e+08
+      Equation: "ElectronContinuityEquation"	RelError: 1.09555e-06	AbsError: 6.03825e+07
+      Equation: "HoleContinuityEquation"	RelError: 3.38983e-06	AbsError: 7.88181e+07
+      Equation: "PotentialEquation"	RelError: 3.44456e-09	AbsError: 3.15584e-10
 Iteration: 4
-  Device: "pn2d"	RelError: 2.07687e-07	AbsError: 2.85701e+03
-    Region: "Silicon"	RelError: 2.07687e-07	AbsError: 2.85701e+03
-      Equation: "ElectronContinuityEquation"	RelError: 1.97114e-07	AbsError: 2.34580e+03
-      Equation: "HoleContinuityEquation"	RelError: 1.05731e-08	AbsError: 5.11206e+02
-      Equation: "PotentialEquation"	RelError: 1.66469e-14	AbsError: 1.09310e-15
+  Device: "pn2d"	RelError: 3.41803e-06	AbsError: 3.17581e+03
+    Region: "Silicon"	RelError: 3.41803e-06	AbsError: 3.17581e+03
+      Equation: "ElectronContinuityEquation"	RelError: 3.41738e-06	AbsError: 2.48293e+03
+      Equation: "HoleContinuityEquation"	RelError: 6.49718e-10	AbsError: 6.92880e+02
+      Equation: "PotentialEquation"	RelError: 1.73737e-14	AbsError: 3.01633e-15
 Iteration: 5
-  Device: "pn2d"	RelError: 4.80704e-07	AbsError: 5.82478e+02
-    Region: "Silicon"	RelError: 4.80704e-07	AbsError: 5.82478e+02
-      Equation: "ElectronContinuityEquation"	RelError: 4.80574e-07	AbsError: 7.12608e+01
-      Equation: "HoleContinuityEquation"	RelError: 1.29795e-10	AbsError: 5.11217e+02
-      Equation: "PotentialEquation"	RelError: 3.89418e-15	AbsError: 1.86147e-16
-Anode	0.25	1.44165204729e-12	6.40849791266e-12	7.85014995995e-12
-Cathode	0.0	-6.4693768848e-12	-1.36211663269e-12	-7.83149351749e-12
+  Device: "pn2d"	RelError: 3.56704e-06	AbsError: 5.79785e+02
+    Region: "Silicon"	RelError: 3.56704e-06	AbsError: 5.79785e+02
+      Equation: "ElectronContinuityEquation"	RelError: 3.41746e-06	AbsError: 6.86820e+01
+      Equation: "HoleContinuityEquation"	RelError: 1.49576e-07	AbsError: 5.11103e+02
+      Equation: "PotentialEquation"	RelError: 1.44722e-15	AbsError: 1.72861e-16
+Anode	0.25	1.44165204517e-12	6.40118413193e-12	7.8428361771e-12
+Cathode	0.0	-6.4693768848e-12	-1.36211664265e-12	-7.83149352745e-12
 Region "Silicon" on device "pn2d" has equations 0:1619
 Device "pn2d" has equations 0:1619
 number of equations 1620
 Iteration: 0
-  Device: "pn2d"	RelError: 1.18790e+00	AbsError: 1.33169e+16
-    Region: "Silicon"	RelError: 1.18790e+00	AbsError: 1.33169e+16
-      Equation: "ElectronContinuityEquation"	RelError: 4.91268e-01	AbsError: 6.35940e+15
-      Equation: "HoleContinuityEquation"	RelError: 4.91262e-01	AbsError: 6.95748e+15
-      Equation: "PotentialEquation"	RelError: 2.05371e-01	AbsError: 2.50000e-02
+  Device: "pn2d"	RelError: 1.18791e+00	AbsError: 1.33169e+16
+    Region: "Silicon"	RelError: 1.18791e+00	AbsError: 1.33169e+16
+      Equation: "ElectronContinuityEquation"	RelError: 4.91268e-01	AbsError: 6.35941e+15
+      Equation: "HoleContinuityEquation"	RelError: 4.91262e-01	AbsError: 6.95747e+15
+      Equation: "PotentialEquation"	RelError: 2.05377e-01	AbsError: 2.50000e-02
 Iteration: 1
-  Device: "pn2d"	RelError: 5.07249e-01	AbsError: 5.17011e+14
-    Region: "Silicon"	RelError: 5.07249e-01	AbsError: 5.17011e+14
-      Equation: "ElectronContinuityEquation"	RelError: 2.52180e-01	AbsError: 2.35953e+14
-      Equation: "HoleContinuityEquation"	RelError: 2.51867e-01	AbsError: 2.81059e+14
-      Equation: "PotentialEquation"	RelError: 3.20169e-03	AbsError: 2.89285e-04
+  Device: "pn2d"	RelError: 5.07250e-01	AbsError: 5.16959e+14
+    Region: "Silicon"	RelError: 5.07250e-01	AbsError: 5.16959e+14
+      Equation: "ElectronContinuityEquation"	RelError: 2.52180e-01	AbsError: 2.35900e+14
+      Equation: "HoleContinuityEquation"	RelError: 2.51868e-01	AbsError: 2.81059e+14
+      Equation: "PotentialEquation"	RelError: 3.20183e-03	AbsError: 2.89298e-04
 Iteration: 2
-  Device: "pn2d"	RelError: 2.08859e-03	AbsError: 4.47245e+11
-    Region: "Silicon"	RelError: 2.08859e-03	AbsError: 4.47245e+11
-      Equation: "ElectronContinuityEquation"	RelError: 1.18522e-03	AbsError: 2.16394e+11
-      Equation: "HoleContinuityEquation"	RelError: 9.00782e-04	AbsError: 2.30851e+11
-      Equation: "PotentialEquation"	RelError: 2.58445e-06	AbsError: 2.26919e-07
+  Device: "pn2d"	RelError: 2.08913e-03	AbsError: 4.45483e+11
+    Region: "Silicon"	RelError: 2.08913e-03	AbsError: 4.45483e+11
+      Equation: "ElectronContinuityEquation"	RelError: 1.18519e-03	AbsError: 2.14168e+11
+      Equation: "HoleContinuityEquation"	RelError: 9.01366e-04	AbsError: 2.31315e+11
+      Equation: "PotentialEquation"	RelError: 2.57224e-06	AbsError: 2.96462e-07
 Iteration: 3
-  Device: "pn2d"	RelError: 2.82064e-06	AbsError: 1.69285e+08
-    Region: "Silicon"	RelError: 2.82064e-06	AbsError: 1.69285e+08
-      Equation: "ElectronContinuityEquation"	RelError: 1.38790e-06	AbsError: 1.07144e+08
-      Equation: "HoleContinuityEquation"	RelError: 1.42781e-06	AbsError: 6.21402e+07
-      Equation: "PotentialEquation"	RelError: 4.92564e-09	AbsError: 5.10965e-10
+  Device: "pn2d"	RelError: 2.07761e-07	AbsError: 5.45892e+07
+    Region: "Silicon"	RelError: 2.07761e-07	AbsError: 5.45892e+07
+      Equation: "ElectronContinuityEquation"	RelError: 1.23190e-07	AbsError: 1.87395e+07
+      Equation: "HoleContinuityEquation"	RelError: 8.39635e-08	AbsError: 3.58497e+07
+      Equation: "PotentialEquation"	RelError: 6.06953e-10	AbsError: 6.29628e-11
 Iteration: 4
-  Device: "pn2d"	RelError: 2.57335e-06	AbsError: 3.79484e+03
-    Region: "Silicon"	RelError: 2.57335e-06	AbsError: 3.79484e+03
-      Equation: "ElectronContinuityEquation"	RelError: 1.39301e-06	AbsError: 2.30192e+03
-      Equation: "HoleContinuityEquation"	RelError: 1.18035e-06	AbsError: 1.49293e+03
-      Equation: "PotentialEquation"	RelError: 2.76240e-14	AbsError: 6.09452e-15
+  Device: "pn2d"	RelError: 1.40812e-06	AbsError: 1.69505e+03
+    Region: "Silicon"	RelError: 1.40812e-06	AbsError: 1.69505e+03
+      Equation: "ElectronContinuityEquation"	RelError: 1.88953e-07	AbsError: 5.54496e+02
+      Equation: "HoleContinuityEquation"	RelError: 1.21917e-06	AbsError: 1.14055e+03
+      Equation: "PotentialEquation"	RelError: 4.40323e-14	AbsError: 4.56773e-15
 Iteration: 5
-  Device: "pn2d"	RelError: 4.16963e-07	AbsError: 5.84055e+02
-    Region: "Silicon"	RelError: 4.16963e-07	AbsError: 5.84055e+02
-      Equation: "ElectronContinuityEquation"	RelError: 1.89928e-07	AbsError: 7.33093e+01
-      Equation: "HoleContinuityEquation"	RelError: 2.27035e-07	AbsError: 5.10746e+02
-      Equation: "PotentialEquation"	RelError: 1.36603e-15	AbsError: 1.36355e-16
-Anode	0.275	3.7866154853e-12	1.17319567335e-11	1.55185722188e-11
-Cathode	0.0	-1.19734882419e-11	-3.57748092014e-12	-1.5550969162e-11
+  Device: "pn2d"	RelError: 1.44973e-06	AbsError: 5.90850e+02
+    Region: "Silicon"	RelError: 1.44973e-06	AbsError: 5.90850e+02
+      Equation: "ElectronContinuityEquation"	RelError: 1.38776e-06	AbsError: 7.99528e+01
+      Equation: "HoleContinuityEquation"	RelError: 6.19706e-08	AbsError: 5.10897e+02
+      Equation: "PotentialEquation"	RelError: 4.40665e-15	AbsError: 2.65061e-16
+Anode	0.275	3.78661548528e-12	1.17763385915e-11	1.55629540768e-11
+Cathode	0.0	-1.19734882419e-11	-3.57748093032e-12	-1.55509691722e-11
 Region "Silicon" on device "pn2d" has equations 0:1619
 Device "pn2d" has equations 0:1619
 number of equations 1620
@@ -525,344 +525,356 @@ Iteration: 0
       Equation: "HoleContinuityEquation"	RelError: 4.91262e-01	AbsError: 6.85804e+15
       Equation: "PotentialEquation"	RelError: 2.65584e-01	AbsError: 2.50000e-02
 Iteration: 1
-  Device: "pn2d"	RelError: 5.08009e-01	AbsError: 5.33385e+14
-    Region: "Silicon"	RelError: 5.08009e-01	AbsError: 5.33385e+14
-      Equation: "ElectronContinuityEquation"	RelError: 2.52152e-01	AbsError: 2.34981e+14
-      Equation: "HoleContinuityEquation"	RelError: 2.51879e-01	AbsError: 2.98405e+14
-      Equation: "PotentialEquation"	RelError: 3.97729e-03	AbsError: 2.84298e-04
+  Device: "pn2d"	RelError: 5.07984e-01	AbsError: 5.33362e+14
+    Region: "Silicon"	RelError: 5.07984e-01	AbsError: 5.33362e+14
+      Equation: "ElectronContinuityEquation"	RelError: 2.52123e-01	AbsError: 2.34956e+14
+      Equation: "HoleContinuityEquation"	RelError: 2.51883e-01	AbsError: 2.98406e+14
+      Equation: "PotentialEquation"	RelError: 3.97732e-03	AbsError: 2.84300e-04
 Iteration: 2
-  Device: "pn2d"	RelError: 2.09543e-03	AbsError: 4.97092e+11
-    Region: "Silicon"	RelError: 2.09543e-03	AbsError: 4.97092e+11
-      Equation: "ElectronContinuityEquation"	RelError: 1.18652e-03	AbsError: 2.76135e+11
-      Equation: "HoleContinuityEquation"	RelError: 9.06205e-04	AbsError: 2.20957e+11
-      Equation: "PotentialEquation"	RelError: 2.70831e-06	AbsError: 1.83452e-07
+  Device: "pn2d"	RelError: 2.09444e-03	AbsError: 4.29700e+11
+    Region: "Silicon"	RelError: 2.09444e-03	AbsError: 4.29700e+11
+      Equation: "ElectronContinuityEquation"	RelError: 1.18438e-03	AbsError: 2.07631e+11
+      Equation: "HoleContinuityEquation"	RelError: 9.07381e-04	AbsError: 2.22068e+11
+      Equation: "PotentialEquation"	RelError: 2.67958e-06	AbsError: 1.91838e-07
 Iteration: 3
-  Device: "pn2d"	RelError: 7.47475e-07	AbsError: 2.78880e+07
-    Region: "Silicon"	RelError: 7.47475e-07	AbsError: 2.78880e+07
-      Equation: "ElectronContinuityEquation"	RelError: 4.34656e-07	AbsError: 1.00341e+07
-      Equation: "HoleContinuityEquation"	RelError: 3.12384e-07	AbsError: 1.78539e+07
-      Equation: "PotentialEquation"	RelError: 4.34371e-10	AbsError: 5.03075e-11
+  Device: "pn2d"	RelError: 2.54575e-07	AbsError: 8.52490e+07
+    Region: "Silicon"	RelError: 2.54575e-07	AbsError: 8.52490e+07
+      Equation: "ElectronContinuityEquation"	RelError: 1.71271e-07	AbsError: 4.16569e+07
+      Equation: "HoleContinuityEquation"	RelError: 8.20816e-08	AbsError: 4.35920e+07
+      Equation: "PotentialEquation"	RelError: 1.22175e-09	AbsError: 1.41499e-10
 Iteration: 4
-  Device: "pn2d"	RelError: 1.05776e-06	AbsError: 7.50972e+02
-    Region: "Silicon"	RelError: 1.05776e-06	AbsError: 7.50972e+02
-      Equation: "ElectronContinuityEquation"	RelError: 5.65960e-07	AbsError: 2.45136e+02
-      Equation: "HoleContinuityEquation"	RelError: 4.91795e-07	AbsError: 5.05836e+02
-      Equation: "PotentialEquation"	RelError: 1.42150e-14	AbsError: 1.64634e-15
-Anode	0.3	9.94558117997e-12	2.26980858845e-11	3.26436670645e-11
-Cathode	0.0	-2.32575495975e-11	-9.3956533641e-12	-3.26532029616e-11
+  Device: "pn2d"	RelError: 5.89759e-07	AbsError: 1.76536e+03
+    Region: "Silicon"	RelError: 5.89759e-07	AbsError: 1.76536e+03
+      Equation: "ElectronContinuityEquation"	RelError: 5.64058e-07	AbsError: 6.35417e+02
+      Equation: "HoleContinuityEquation"	RelError: 2.57012e-08	AbsError: 1.12994e+03
+      Equation: "PotentialEquation"	RelError: 4.19040e-14	AbsError: 4.85319e-15
+Iteration: 5
+  Device: "pn2d"	RelError: 4.55736e-08	AbsError: 5.70212e+02
+    Region: "Silicon"	RelError: 4.55736e-08	AbsError: 5.70212e+02
+      Equation: "ElectronContinuityEquation"	RelError: 1.98684e-08	AbsError: 6.52419e+01
+      Equation: "HoleContinuityEquation"	RelError: 2.57052e-08	AbsError: 5.04970e+02
+      Equation: "PotentialEquation"	RelError: 1.25341e-15	AbsError: 1.85184e-16
+Anode	0.3	9.94558133825e-12	2.27050843715e-11	3.26506657097e-11
+Cathode	0.0	-2.32575495975e-11	-9.39565338595e-12	-3.26532029834e-11
 Region "Silicon" on device "pn2d" has equations 0:1619
 Device "pn2d" has equations 0:1619
 number of equations 1620
 Iteration: 0
-  Device: "pn2d"	RelError: 1.36066e+00	AbsError: 1.30519e+16
-    Region: "Silicon"	RelError: 1.36066e+00	AbsError: 1.30519e+16
-      Equation: "ElectronContinuityEquation"	RelError: 4.91268e-01	AbsError: 6.29289e+15
-      Equation: "HoleContinuityEquation"	RelError: 4.91261e-01	AbsError: 6.75904e+15
+  Device: "pn2d"	RelError: 1.36066e+00	AbsError: 1.30600e+16
+    Region: "Silicon"	RelError: 1.36066e+00	AbsError: 1.30600e+16
+      Equation: "ElectronContinuityEquation"	RelError: 4.91268e-01	AbsError: 6.30152e+15
+      Equation: "HoleContinuityEquation"	RelError: 4.91261e-01	AbsError: 6.75852e+15
       Equation: "PotentialEquation"	RelError: 3.78130e-01	AbsError: 2.50000e-02
 Iteration: 1
-  Device: "pn2d"	RelError: 5.09221e-01	AbsError: 5.79897e+14
-    Region: "Silicon"	RelError: 5.09221e-01	AbsError: 5.79897e+14
-      Equation: "ElectronContinuityEquation"	RelError: 2.52080e-01	AbsError: 2.73136e+14
-      Equation: "HoleContinuityEquation"	RelError: 2.51889e-01	AbsError: 3.06761e+14
-      Equation: "PotentialEquation"	RelError: 5.25220e-03	AbsError: 2.68947e-04
+  Device: "pn2d"	RelError: 5.15877e-01	AbsError: 5.88366e+14
+    Region: "Silicon"	RelError: 5.15877e-01	AbsError: 5.88366e+14
+      Equation: "ElectronContinuityEquation"	RelError: 2.52059e-01	AbsError: 2.73134e+14
+      Equation: "HoleContinuityEquation"	RelError: 2.53577e-01	AbsError: 3.15232e+14
+      Equation: "PotentialEquation"	RelError: 1.02411e-02	AbsError: 1.30948e-03
 Iteration: 2
-  Device: "pn2d"	RelError: 2.01829e-03	AbsError: 5.12970e+11
-    Region: "Silicon"	RelError: 2.01829e-03	AbsError: 5.12970e+11
-      Equation: "ElectronContinuityEquation"	RelError: 1.13283e-03	AbsError: 3.11062e+11
-      Equation: "HoleContinuityEquation"	RelError: 8.82708e-04	AbsError: 2.01908e+11
-      Equation: "PotentialEquation"	RelError: 2.74697e-06	AbsError: 3.06559e-07
+  Device: "pn2d"	RelError: 7.47115e-03	AbsError: 4.97409e+11
+    Region: "Silicon"	RelError: 7.47115e-03	AbsError: 4.97409e+11
+      Equation: "ElectronContinuityEquation"	RelError: 4.03842e-03	AbsError: 3.09395e+11
+      Equation: "HoleContinuityEquation"	RelError: 3.42948e-03	AbsError: 1.88014e+11
+      Equation: "PotentialEquation"	RelError: 3.24562e-06	AbsError: 3.12833e-07
 Iteration: 3
-  Device: "pn2d"	RelError: 4.99173e-07	AbsError: 8.30417e+07
-    Region: "Silicon"	RelError: 4.99173e-07	AbsError: 8.30417e+07
-      Equation: "ElectronContinuityEquation"	RelError: 2.32404e-07	AbsError: 6.89708e+07
-      Equation: "HoleContinuityEquation"	RelError: 2.66416e-07	AbsError: 1.40709e+07
-      Equation: "PotentialEquation"	RelError: 3.52265e-10	AbsError: 9.29062e-11
+  Device: "pn2d"	RelError: 6.20873e-07	AbsError: 2.46201e+07
+    Region: "Silicon"	RelError: 6.20873e-07	AbsError: 2.46201e+07
+      Equation: "ElectronContinuityEquation"	RelError: 3.56397e-07	AbsError: 1.65120e+07
+      Equation: "HoleContinuityEquation"	RelError: 2.64055e-07	AbsError: 8.10809e+06
+      Equation: "PotentialEquation"	RelError: 4.21549e-10	AbsError: 5.12391e-11
 Iteration: 4
-  Device: "pn2d"	RelError: 1.14994e-07	AbsError: 9.18262e+02
-    Region: "Silicon"	RelError: 1.14994e-07	AbsError: 9.18262e+02
-      Equation: "ElectronContinuityEquation"	RelError: 5.97100e-08	AbsError: 4.09995e+02
-      Equation: "HoleContinuityEquation"	RelError: 5.52839e-08	AbsError: 5.08267e+02
-      Equation: "PotentialEquation"	RelError: 1.78902e-14	AbsError: 1.51761e-15
-Anode	0.325	2.61218402705e-11	4.62947811447e-11	7.24166214153e-11
-Cathode	0.0	-4.77376054409e-11	-2.46757139856e-11	-7.24133194266e-11
+  Device: "pn2d"	RelError: 4.32829e-07	AbsError: 1.80838e+03
+    Region: "Silicon"	RelError: 4.32829e-07	AbsError: 1.80838e+03
+      Equation: "ElectronContinuityEquation"	RelError: 2.25319e-07	AbsError: 1.01666e+03
+      Equation: "HoleContinuityEquation"	RelError: 2.07510e-07	AbsError: 7.91720e+02
+      Equation: "PotentialEquation"	RelError: 3.65135e-14	AbsError: 3.09742e-15
+Iteration: 5
+  Device: "pn2d"	RelError: 2.55580e-07	AbsError: 6.08622e+02
+    Region: "Silicon"	RelError: 2.55580e-07	AbsError: 6.08622e+02
+      Equation: "ElectronContinuityEquation"	RelError: 2.25302e-07	AbsError: 1.01162e+02
+      Equation: "HoleContinuityEquation"	RelError: 3.02780e-08	AbsError: 5.07460e+02
+      Equation: "PotentialEquation"	RelError: 4.68249e-15	AbsError: 3.97213e-16
+Anode	0.325	2.61218402767e-11	4.63095567633e-11	7.24313970399e-11
+Cathode	0.0	-4.77376054409e-11	-2.46757138248e-11	-7.24133192657e-11
 Region "Silicon" on device "pn2d" has equations 0:1619
 Device "pn2d" has equations 0:1619
 number of equations 1620
 Iteration: 0
-  Device: "pn2d"	RelError: 1.62331e+00	AbsError: 1.29201e+16
-    Region: "Silicon"	RelError: 1.62331e+00	AbsError: 1.29201e+16
-      Equation: "ElectronContinuityEquation"	RelError: 4.91268e-01	AbsError: 6.25506e+15
-      Equation: "HoleContinuityEquation"	RelError: 4.91260e-01	AbsError: 6.66502e+15
+  Device: "pn2d"	RelError: 1.62331e+00	AbsError: 1.29210e+16
+    Region: "Silicon"	RelError: 1.62331e+00	AbsError: 1.29210e+16
+      Equation: "ElectronContinuityEquation"	RelError: 4.91268e-01	AbsError: 6.25608e+15
+      Equation: "HoleContinuityEquation"	RelError: 4.91260e-01	AbsError: 6.66496e+15
       Equation: "PotentialEquation"	RelError: 6.40777e-01	AbsError: 2.50000e-02
 Iteration: 1
-  Device: "pn2d"	RelError: 5.12233e-01	AbsError: 6.24672e+14
-    Region: "Silicon"	RelError: 5.12233e-01	AbsError: 6.24672e+14
-      Equation: "ElectronContinuityEquation"	RelError: 2.52032e-01	AbsError: 3.17802e+14
-      Equation: "HoleContinuityEquation"	RelError: 2.51973e-01	AbsError: 3.06870e+14
-      Equation: "PotentialEquation"	RelError: 8.22765e-03	AbsError: 2.80316e-04
+  Device: "pn2d"	RelError: 5.12295e-01	AbsError: 6.24697e+14
+    Region: "Silicon"	RelError: 5.12295e-01	AbsError: 6.24697e+14
+      Equation: "ElectronContinuityEquation"	RelError: 2.52026e-01	AbsError: 3.17806e+14
+      Equation: "HoleContinuityEquation"	RelError: 2.52042e-01	AbsError: 3.06891e+14
+      Equation: "PotentialEquation"	RelError: 8.22685e-03	AbsError: 3.64532e-04
 Iteration: 2
-  Device: "pn2d"	RelError: 1.99294e-03	AbsError: 5.63823e+11
-    Region: "Silicon"	RelError: 1.99294e-03	AbsError: 5.63823e+11
-      Equation: "ElectronContinuityEquation"	RelError: 1.04199e-03	AbsError: 3.83767e+11
-      Equation: "HoleContinuityEquation"	RelError: 9.47988e-04	AbsError: 1.80056e+11
-      Equation: "PotentialEquation"	RelError: 2.95859e-06	AbsError: 3.98322e-07
+  Device: "pn2d"	RelError: 1.99141e-03	AbsError: 5.87166e+11
+    Region: "Silicon"	RelError: 1.99141e-03	AbsError: 5.87166e+11
+      Equation: "ElectronContinuityEquation"	RelError: 1.03945e-03	AbsError: 3.87318e+11
+      Equation: "HoleContinuityEquation"	RelError: 9.49738e-04	AbsError: 1.99848e+11
+      Equation: "PotentialEquation"	RelError: 2.21782e-06	AbsError: 3.88321e-07
 Iteration: 3
-  Device: "pn2d"	RelError: 3.75530e-08	AbsError: 6.76804e+07
-    Region: "Silicon"	RelError: 3.75530e-08	AbsError: 6.76804e+07
-      Equation: "ElectronContinuityEquation"	RelError: 1.71483e-08	AbsError: 2.54013e+07
-      Equation: "HoleContinuityEquation"	RelError: 2.02605e-08	AbsError: 4.22791e+07
-      Equation: "PotentialEquation"	RelError: 1.44159e-10	AbsError: 1.40095e-11
+  Device: "pn2d"	RelError: 1.08988e-07	AbsError: 8.00831e+07
+    Region: "Silicon"	RelError: 1.08988e-07	AbsError: 8.00831e+07
+      Equation: "ElectronContinuityEquation"	RelError: 3.31972e-08	AbsError: 4.39880e+07
+      Equation: "HoleContinuityEquation"	RelError: 7.53907e-08	AbsError: 3.60952e+07
+      Equation: "PotentialEquation"	RelError: 4.00226e-10	AbsError: 4.25373e-11
 Iteration: 4
-  Device: "pn2d"	RelError: 1.77312e-07	AbsError: 8.98342e+02
-    Region: "Silicon"	RelError: 1.77312e-07	AbsError: 8.98342e+02
-      Equation: "ElectronContinuityEquation"	RelError: 9.07913e-08	AbsError: 3.91618e+02
-      Equation: "HoleContinuityEquation"	RelError: 8.65207e-08	AbsError: 5.06724e+02
-      Equation: "PotentialEquation"	RelError: 2.33751e-14	AbsError: 2.27162e-15
-Anode	0.35	6.86079366393e-11	9.99491306895e-11	1.68557067329e-10
-Cathode	0.0	-1.03756327297e-10	-6.48049242212e-11	-1.68561251518e-10
+  Device: "pn2d"	RelError: 1.18862e-07	AbsError: 9.35492e+02
+    Region: "Silicon"	RelError: 1.18862e-07	AbsError: 9.35492e+02
+      Equation: "ElectronContinuityEquation"	RelError: 9.22592e-08	AbsError: 4.27719e+02
+      Equation: "HoleContinuityEquation"	RelError: 2.66024e-08	AbsError: 5.07773e+02
+      Equation: "PotentialEquation"	RelError: 1.96376e-14	AbsError: 1.90840e-15
+Anode	0.35	6.86079364814e-11	9.99498830966e-11	1.68557819578e-10
+Cathode	0.0	-1.03756327297e-10	-6.48049241201e-11	-1.68561251417e-10
 Region "Silicon" on device "pn2d" has equations 0:1619
 Device "pn2d" has equations 0:1619
 number of equations 1620
 Iteration: 0
-  Device: "pn2d"	RelError: 2.94385e+00	AbsError: 1.27972e+16
-    Region: "Silicon"	RelError: 2.94385e+00	AbsError: 1.27972e+16
-      Equation: "ElectronContinuityEquation"	RelError: 4.91268e-01	AbsError: 6.21823e+15
-      Equation: "HoleContinuityEquation"	RelError: 4.91261e-01	AbsError: 6.57893e+15
-      Equation: "PotentialEquation"	RelError: 1.96133e+00	AbsError: 2.50000e-02
+  Device: "pn2d"	RelError: 2.94384e+00	AbsError: 1.27972e+16
+    Region: "Silicon"	RelError: 2.94384e+00	AbsError: 1.27972e+16
+      Equation: "ElectronContinuityEquation"	RelError: 4.91268e-01	AbsError: 6.21824e+15
+      Equation: "HoleContinuityEquation"	RelError: 4.91260e-01	AbsError: 6.57894e+15
+      Equation: "PotentialEquation"	RelError: 1.96131e+00	AbsError: 2.50000e-02
 Iteration: 1
-  Device: "pn2d"	RelError: 5.29758e-01	AbsError: 9.43957e+14
-    Region: "Silicon"	RelError: 5.29758e-01	AbsError: 9.43957e+14
-      Equation: "ElectronContinuityEquation"	RelError: 2.54438e-01	AbsError: 6.44348e+14
-      Equation: "HoleContinuityEquation"	RelError: 2.52134e-01	AbsError: 2.99609e+14
-      Equation: "PotentialEquation"	RelError: 2.31873e-02	AbsError: 2.80157e-03
+  Device: "pn2d"	RelError: 5.29933e-01	AbsError: 1.04928e+15
+    Region: "Silicon"	RelError: 5.29933e-01	AbsError: 1.04928e+15
+      Equation: "ElectronContinuityEquation"	RelError: 2.51984e-01	AbsError: 7.49723e+14
+      Equation: "HoleContinuityEquation"	RelError: 2.54755e-01	AbsError: 2.99554e+14
+      Equation: "PotentialEquation"	RelError: 2.31935e-02	AbsError: 3.26159e-03
 Iteration: 2
-  Device: "pn2d"	RelError: 1.66210e-02	AbsError: 5.41923e+11
-    Region: "Silicon"	RelError: 1.66210e-02	AbsError: 5.41923e+11
-      Equation: "ElectronContinuityEquation"	RelError: 6.67199e-03	AbsError: 3.89097e+11
-      Equation: "HoleContinuityEquation"	RelError: 9.94357e-03	AbsError: 1.52826e+11
-      Equation: "PotentialEquation"	RelError: 5.47701e-06	AbsError: 4.14098e-07
+  Device: "pn2d"	RelError: 2.11561e-02	AbsError: 5.49089e+11
+    Region: "Silicon"	RelError: 2.11561e-02	AbsError: 5.49089e+11
+      Equation: "ElectronContinuityEquation"	RelError: 1.25587e-02	AbsError: 3.88825e+11
+      Equation: "HoleContinuityEquation"	RelError: 8.59144e-03	AbsError: 1.60264e+11
+      Equation: "PotentialEquation"	RelError: 5.91629e-06	AbsError: 4.17302e-07
 Iteration: 3
-  Device: "pn2d"	RelError: 1.14067e-08	AbsError: 1.00347e+08
-    Region: "Silicon"	RelError: 1.14067e-08	AbsError: 1.00347e+08
-      Equation: "ElectronContinuityEquation"	RelError: 4.87352e-09	AbsError: 5.34287e+07
-      Equation: "HoleContinuityEquation"	RelError: 6.35465e-09	AbsError: 4.69187e+07
-      Equation: "PotentialEquation"	RelError: 1.78576e-10	AbsError: 1.95658e-11
+  Device: "pn2d"	RelError: 9.31897e-08	AbsError: 1.16962e+08
+    Region: "Silicon"	RelError: 9.31897e-08	AbsError: 1.16962e+08
+      Equation: "ElectronContinuityEquation"	RelError: 6.47221e-08	AbsError: 5.41695e+07
+      Equation: "HoleContinuityEquation"	RelError: 2.81394e-08	AbsError: 6.27929e+07
+      Equation: "PotentialEquation"	RelError: 3.28124e-10	AbsError: 3.59512e-11
 Iteration: 4
-  Device: "pn2d"	RelError: 1.80742e-08	AbsError: 4.76997e+03
-    Region: "Silicon"	RelError: 1.80742e-08	AbsError: 4.76997e+03
-      Equation: "ElectronContinuityEquation"	RelError: 5.46566e-09	AbsError: 4.17172e+03
-      Equation: "HoleContinuityEquation"	RelError: 1.26085e-08	AbsError: 5.98247e+02
-      Equation: "PotentialEquation"	RelError: 9.57202e-15	AbsError: 2.48121e-15
+  Device: "pn2d"	RelError: 7.31804e-08	AbsError: 3.71309e+03
+    Region: "Silicon"	RelError: 7.31804e-08	AbsError: 3.71309e+03
+      Equation: "ElectronContinuityEquation"	RelError: 3.72632e-08	AbsError: 3.12058e+03
+      Equation: "HoleContinuityEquation"	RelError: 3.59172e-08	AbsError: 5.92508e+02
+      Equation: "PotentialEquation"	RelError: 1.12882e-14	AbsError: 2.10998e-15
 Iteration: 5
-  Device: "pn2d"	RelError: 4.10166e-08	AbsError: 5.74487e+02
-    Region: "Silicon"	RelError: 4.10166e-08	AbsError: 5.74487e+02
-      Equation: "ElectronContinuityEquation"	RelError: 3.74311e-08	AbsError: 6.38554e+01
-      Equation: "HoleContinuityEquation"	RelError: 3.58547e-09	AbsError: 5.10631e+02
-      Equation: "PotentialEquation"	RelError: 5.62707e-15	AbsError: 1.84239e-16
-Anode	0.375	1.80194972784e-10	2.27316383623e-10	4.07511356407e-10
-Cathode	0.0	-2.37324083332e-10	-1.70193411365e-10	-4.07517494697e-10
+  Device: "pn2d"	RelError: 3.69347e-08	AbsError: 6.21181e+02
+    Region: "Silicon"	RelError: 3.69347e-08	AbsError: 6.21181e+02
+      Equation: "ElectronContinuityEquation"	RelError: 3.67835e-08	AbsError: 1.10229e+02
+      Equation: "HoleContinuityEquation"	RelError: 1.51109e-10	AbsError: 5.10952e+02
+      Equation: "PotentialEquation"	RelError: 8.72556e-15	AbsError: 4.57749e-16
+Anode	0.375	1.80194972781e-10	2.27326678205e-10	4.07521650986e-10
+Cathode	0.0	-2.37324083332e-10	-1.70193411364e-10	-4.07517494696e-10
 Region "Silicon" on device "pn2d" has equations 0:1619
 Device "pn2d" has equations 0:1619
 number of equations 1620
 Iteration: 0
-  Device: "pn2d"	RelError: 4.88735e+01	AbsError: 1.27657e+16
-    Region: "Silicon"	RelError: 4.88735e+01	AbsError: 1.27657e+16
-      Equation: "ElectronContinuityEquation"	RelError: 4.91267e-01	AbsError: 6.06212e+15
-      Equation: "HoleContinuityEquation"	RelError: 4.91432e-01	AbsError: 6.70363e+15
-      Equation: "PotentialEquation"	RelError: 4.78908e+01	AbsError: 2.50000e-02
+  Device: "pn2d"	RelError: 3.88897e+01	AbsError: 1.31321e+16
+    Region: "Silicon"	RelError: 3.88897e+01	AbsError: 1.31321e+16
+      Equation: "ElectronContinuityEquation"	RelError: 4.91268e-01	AbsError: 6.43947e+15
+      Equation: "HoleContinuityEquation"	RelError: 4.91389e-01	AbsError: 6.69267e+15
+      Equation: "PotentialEquation"	RelError: 3.79071e+01	AbsError: 2.50000e-02
 Iteration: 1
-  Device: "pn2d"	RelError: 8.81461e-01	AbsError: 1.82876e+15
-    Region: "Silicon"	RelError: 8.81461e-01	AbsError: 1.82876e+15
-      Equation: "ElectronContinuityEquation"	RelError: 2.52001e-01	AbsError: 1.29619e+15
-      Equation: "HoleContinuityEquation"	RelError: 2.52958e-01	AbsError: 5.32579e+14
-      Equation: "PotentialEquation"	RelError: 3.76502e-01	AbsError: 8.77677e-04
+  Device: "pn2d"	RelError: 7.15830e-01	AbsError: 1.50395e+15
+    Region: "Silicon"	RelError: 7.15830e-01	AbsError: 1.50395e+15
+      Equation: "ElectronContinuityEquation"	RelError: 2.53724e-01	AbsError: 6.34584e+14
+      Equation: "HoleContinuityEquation"	RelError: 2.53854e-01	AbsError: 8.69367e+14
+      Equation: "PotentialEquation"	RelError: 2.08252e-01	AbsError: 2.31788e-03
 Iteration: 2
-  Device: "pn2d"	RelError: 5.94327e-03	AbsError: 1.72782e+12
-    Region: "Silicon"	RelError: 5.94327e-03	AbsError: 1.72782e+12
-      Equation: "ElectronContinuityEquation"	RelError: 2.43945e-03	AbsError: 1.36991e+12
-      Equation: "HoleContinuityEquation"	RelError: 2.92646e-03	AbsError: 3.57912e+11
-      Equation: "PotentialEquation"	RelError: 5.77367e-04	AbsError: 1.57661e-06
+  Device: "pn2d"	RelError: 1.42347e-02	AbsError: 1.22260e+12
+    Region: "Silicon"	RelError: 1.42347e-02	AbsError: 1.22260e+12
+      Equation: "ElectronContinuityEquation"	RelError: 8.04031e-03	AbsError: 7.26740e+11
+      Equation: "HoleContinuityEquation"	RelError: 6.13750e-03	AbsError: 4.95855e+11
+      Equation: "PotentialEquation"	RelError: 5.68528e-05	AbsError: 8.42938e-07
 Iteration: 3
-  Device: "pn2d"	RelError: 3.42295e-08	AbsError: 1.03678e+09
-    Region: "Silicon"	RelError: 3.42295e-08	AbsError: 1.03678e+09
-      Equation: "ElectronContinuityEquation"	RelError: 7.84094e-09	AbsError: 6.52754e+07
-      Equation: "HoleContinuityEquation"	RelError: 2.58808e-08	AbsError: 9.71505e+08
-      Equation: "PotentialEquation"	RelError: 5.07799e-10	AbsError: 8.18062e-11
+  Device: "pn2d"	RelError: 6.19116e-08	AbsError: 6.19202e+08
+    Region: "Silicon"	RelError: 6.19116e-08	AbsError: 6.19202e+08
+      Equation: "ElectronContinuityEquation"	RelError: 3.61588e-08	AbsError: 1.07449e+08
+      Equation: "HoleContinuityEquation"	RelError: 2.15347e-08	AbsError: 5.11753e+08
+      Equation: "PotentialEquation"	RelError: 4.21822e-09	AbsError: 1.76919e-11
 Iteration: 4
-  Device: "pn2d"	RelError: 3.02175e-08	AbsError: 2.09949e+04
-    Region: "Silicon"	RelError: 3.02175e-08	AbsError: 2.09949e+04
-      Equation: "ElectronContinuityEquation"	RelError: 1.49980e-08	AbsError: 1.34617e+04
-      Equation: "HoleContinuityEquation"	RelError: 1.52194e-08	AbsError: 7.53322e+03
-      Equation: "PotentialEquation"	RelError: 8.75572e-14	AbsError: 1.06834e-14
+  Device: "pn2d"	RelError: 2.11830e-08	AbsError: 6.15071e+04
+    Region: "Silicon"	RelError: 2.11830e-08	AbsError: 6.15071e+04
+      Equation: "ElectronContinuityEquation"	RelError: 1.52548e-08	AbsError: 1.07683e+04
+      Equation: "HoleContinuityEquation"	RelError: 5.92774e-09	AbsError: 5.07388e+04
+      Equation: "PotentialEquation"	RelError: 4.66988e-13	AbsError: 3.43297e-15
 Iteration: 5
-  Device: "pn2d"	RelError: 1.70521e-08	AbsError: 5.83184e+02
-    Region: "Silicon"	RelError: 1.70521e-08	AbsError: 5.83184e+02
-      Equation: "ElectronContinuityEquation"	RelError: 1.55153e-08	AbsError: 8.94962e+01
-      Equation: "HoleContinuityEquation"	RelError: 1.53674e-09	AbsError: 4.93687e+02
-      Equation: "PotentialEquation"	RelError: 1.67213e-14	AbsError: 3.79341e-16
-Anode	0.4	4.73269822195e-10	5.39889784344e-10	1.01315960654e-09
-Cathode	0.0	-5.66182775038e-10	-4.46965797924e-10	-1.01314857296e-09
+  Device: "pn2d"	RelError: 1.94757e-08	AbsError: 5.66581e+02
+    Region: "Silicon"	RelError: 1.94757e-08	AbsError: 5.66581e+02
+      Equation: "ElectronContinuityEquation"	RelError: 1.55150e-08	AbsError: 7.32223e+01
+      Equation: "HoleContinuityEquation"	RelError: 3.96065e-09	AbsError: 4.93359e+02
+      Equation: "PotentialEquation"	RelError: 4.89102e-14	AbsError: 1.88566e-16
+Anode	0.4	4.73269822201e-10	5.39873262814e-10	1.01314308502e-09
+Cathode	0.0	-5.66182775038e-10	-4.46965797931e-10	-1.01314857297e-09
 Region "Silicon" on device "pn2d" has equations 0:1619
 Device "pn2d" has equations 0:1619
 number of equations 1620
 Iteration: 0
-  Device: "pn2d"	RelError: 1.07333e+01	AbsError: 1.30819e+16
-    Region: "Silicon"	RelError: 1.07333e+01	AbsError: 1.30819e+16
-      Equation: "ElectronContinuityEquation"	RelError: 4.91289e-01	AbsError: 6.12137e+15
-      Equation: "HoleContinuityEquation"	RelError: 4.91285e-01	AbsError: 6.96056e+15
-      Equation: "PotentialEquation"	RelError: 9.75074e+00	AbsError: 2.50023e-02
+  Device: "pn2d"	RelError: 1.07182e+01	AbsError: 1.33388e+16
+    Region: "Silicon"	RelError: 1.07182e+01	AbsError: 1.33388e+16
+      Equation: "ElectronContinuityEquation"	RelError: 4.91283e-01	AbsError: 6.35937e+15
+      Equation: "HoleContinuityEquation"	RelError: 4.91413e-01	AbsError: 6.97938e+15
+      Equation: "PotentialEquation"	RelError: 9.73550e+00	AbsError: 2.50014e-02
 Iteration: 1
-  Device: "pn2d"	RelError: 5.10507e-01	AbsError: 7.28133e+14
-    Region: "Silicon"	RelError: 5.10507e-01	AbsError: 7.28133e+14
-      Equation: "ElectronContinuityEquation"	RelError: 2.51875e-01	AbsError: 3.98325e+14
-      Equation: "HoleContinuityEquation"	RelError: 2.52397e-01	AbsError: 3.29808e+14
-      Equation: "PotentialEquation"	RelError: 6.23528e-03	AbsError: 8.92112e-04
+  Device: "pn2d"	RelError: 5.12249e-01	AbsError: 9.91851e+14
+    Region: "Silicon"	RelError: 5.12249e-01	AbsError: 9.91851e+14
+      Equation: "ElectronContinuityEquation"	RelError: 2.52468e-01	AbsError: 4.95545e+14
+      Equation: "HoleContinuityEquation"	RelError: 2.53671e-01	AbsError: 4.96306e+14
+      Equation: "PotentialEquation"	RelError: 6.11104e-03	AbsError: 1.43576e-03
 Iteration: 2
-  Device: "pn2d"	RelError: 4.13985e-03	AbsError: 5.53263e+11
-    Region: "Silicon"	RelError: 4.13985e-03	AbsError: 5.53263e+11
-      Equation: "ElectronContinuityEquation"	RelError: 2.00763e-03	AbsError: 3.96817e+11
-      Equation: "HoleContinuityEquation"	RelError: 2.12224e-03	AbsError: 1.56447e+11
-      Equation: "PotentialEquation"	RelError: 9.98785e-06	AbsError: 4.19201e-07
+  Device: "pn2d"	RelError: 7.48912e-03	AbsError: 7.14447e+11
+    Region: "Silicon"	RelError: 7.48912e-03	AbsError: 7.14447e+11
+      Equation: "ElectronContinuityEquation"	RelError: 3.58284e-03	AbsError: 4.06767e+11
+      Equation: "HoleContinuityEquation"	RelError: 3.89745e-03	AbsError: 3.07680e+11
+      Equation: "PotentialEquation"	RelError: 8.83636e-06	AbsError: 5.57344e-07
 Iteration: 3
-  Device: "pn2d"	RelError: 5.17520e-09	AbsError: 1.80450e+08
-    Region: "Silicon"	RelError: 5.17520e-09	AbsError: 1.80450e+08
-      Equation: "ElectronContinuityEquation"	RelError: 1.97197e-09	AbsError: 4.30450e+07
-      Equation: "HoleContinuityEquation"	RelError: 3.13539e-09	AbsError: 1.37405e+08
-      Equation: "PotentialEquation"	RelError: 6.78317e-11	AbsError: 9.12904e-12
+  Device: "pn2d"	RelError: 3.49549e-08	AbsError: 5.08434e+08
+    Region: "Silicon"	RelError: 3.49549e-08	AbsError: 5.08434e+08
+      Equation: "ElectronContinuityEquation"	RelError: 1.60640e-08	AbsError: 8.39728e+07
+      Equation: "HoleContinuityEquation"	RelError: 1.61436e-08	AbsError: 4.24461e+08
+      Equation: "PotentialEquation"	RelError: 2.74727e-09	AbsError: 2.13606e-11
 Iteration: 4
-  Device: "pn2d"	RelError: 7.93283e-09	AbsError: 1.05977e+04
-    Region: "Silicon"	RelError: 7.93283e-09	AbsError: 1.05977e+04
-      Equation: "ElectronContinuityEquation"	RelError: 6.21471e-09	AbsError: 3.78464e+03
-      Equation: "HoleContinuityEquation"	RelError: 1.71811e-09	AbsError: 6.81309e+03
-      Equation: "PotentialEquation"	RelError: 1.01634e-14	AbsError: 9.02311e-16
+  Device: "pn2d"	RelError: 4.00765e-09	AbsError: 1.26899e+04
+    Region: "Silicon"	RelError: 4.00765e-09	AbsError: 1.26899e+04
+      Equation: "ElectronContinuityEquation"	RelError: 1.21152e-09	AbsError: 6.87879e+03
+      Equation: "HoleContinuityEquation"	RelError: 2.79613e-09	AbsError: 5.81107e+03
+      Equation: "PotentialEquation"	RelError: 1.21436e-14	AbsError: 3.44830e-15
 Iteration: 5
-  Device: "pn2d"	RelError: 1.24300e-08	AbsError: 5.54387e+02
-    Region: "Silicon"	RelError: 1.24300e-08	AbsError: 5.54387e+02
-      Equation: "ElectronContinuityEquation"	RelError: 6.05095e-09	AbsError: 9.68275e+01
-      Equation: "HoleContinuityEquation"	RelError: 6.37902e-09	AbsError: 4.57559e+02
-      Equation: "PotentialEquation"	RelError: 2.08567e-15	AbsError: 2.70857e-16
-Anode	0.425	1.24300424155e-09	1.32512222732e-09	2.56812646888e-09
-Cathode	0.0	-1.3943044308e-09	-1.17382349083e-09	-2.56812792163e-09
+  Device: "pn2d"	RelError: 7.65219e-09	AbsError: 5.22693e+02
+    Region: "Silicon"	RelError: 7.65219e-09	AbsError: 5.22693e+02
+      Equation: "ElectronContinuityEquation"	RelError: 6.05112e-09	AbsError: 6.56968e+01
+      Equation: "HoleContinuityEquation"	RelError: 1.60106e-09	AbsError: 4.56996e+02
+      Equation: "PotentialEquation"	RelError: 5.72432e-15	AbsError: 2.14498e-16
+Anode	0.425	1.24300424138e-09	1.32512990772e-09	2.56813414911e-09
+Cathode	0.0	-1.3943044308e-09	-1.17382349111e-09	-2.56812792192e-09
 Region "Silicon" on device "pn2d" has equations 0:1619
 Device "pn2d" has equations 0:1619
 number of equations 1620
 Iteration: 0
-  Device: "pn2d"	RelError: 3.95704e+01	AbsError: 1.36646e+16
-    Region: "Silicon"	RelError: 3.95704e+01	AbsError: 1.36646e+16
-      Equation: "ElectronContinuityEquation"	RelError: 4.91313e-01	AbsError: 6.37220e+15
-      Equation: "HoleContinuityEquation"	RelError: 4.91367e-01	AbsError: 7.29242e+15
-      Equation: "PotentialEquation"	RelError: 3.85877e+01	AbsError: 2.50052e-02
+  Device: "pn2d"	RelError: 3.71195e+01	AbsError: 1.31016e+16
+    Region: "Silicon"	RelError: 3.71195e+01	AbsError: 1.31016e+16
+      Equation: "ElectronContinuityEquation"	RelError: 4.91343e-01	AbsError: 6.01123e+15
+      Equation: "HoleContinuityEquation"	RelError: 4.91769e-01	AbsError: 7.09040e+15
+      Equation: "PotentialEquation"	RelError: 3.61364e+01	AbsError: 2.50083e-02
 Iteration: 1
-  Device: "pn2d"	RelError: 5.71301e-01	AbsError: 1.94097e+15
-    Region: "Silicon"	RelError: 5.71301e-01	AbsError: 1.94097e+15
-      Equation: "ElectronContinuityEquation"	RelError: 2.53879e-01	AbsError: 9.58991e+14
-      Equation: "HoleContinuityEquation"	RelError: 2.53067e-01	AbsError: 9.81981e+14
-      Equation: "PotentialEquation"	RelError: 6.43551e-02	AbsError: 2.12426e-03
+  Device: "pn2d"	RelError: 5.19126e-01	AbsError: 2.59362e+15
+    Region: "Silicon"	RelError: 5.19126e-01	AbsError: 2.59362e+15
+      Equation: "ElectronContinuityEquation"	RelError: 2.52081e-01	AbsError: 1.73234e+15
+      Equation: "HoleContinuityEquation"	RelError: 2.52757e-01	AbsError: 8.61279e+14
+      Equation: "PotentialEquation"	RelError: 1.42867e-02	AbsError: 9.55685e-04
 Iteration: 2
-  Device: "pn2d"	RelError: 1.22497e-02	AbsError: 1.26794e+12
-    Region: "Silicon"	RelError: 1.22497e-02	AbsError: 1.26794e+12
-      Equation: "ElectronContinuityEquation"	RelError: 5.18066e-03	AbsError: 6.69162e+11
-      Equation: "HoleContinuityEquation"	RelError: 7.02584e-03	AbsError: 5.98775e+11
-      Equation: "PotentialEquation"	RelError: 4.31571e-05	AbsError: 7.44873e-07
+  Device: "pn2d"	RelError: 5.17979e-03	AbsError: 8.69357e+11
+    Region: "Silicon"	RelError: 5.17979e-03	AbsError: 8.69357e+11
+      Equation: "ElectronContinuityEquation"	RelError: 2.84844e-03	AbsError: 6.89757e+11
+      Equation: "HoleContinuityEquation"	RelError: 2.31117e-03	AbsError: 1.79600e+11
+      Equation: "PotentialEquation"	RelError: 2.01805e-05	AbsError: 7.84802e-07
 Iteration: 3
-  Device: "pn2d"	RelError: 2.29804e-08	AbsError: 4.60811e+08
-    Region: "Silicon"	RelError: 2.29804e-08	AbsError: 4.60811e+08
-      Equation: "ElectronContinuityEquation"	RelError: 1.04685e-08	AbsError: 1.25986e+08
-      Equation: "HoleContinuityEquation"	RelError: 1.13237e-08	AbsError: 3.34824e+08
-      Equation: "PotentialEquation"	RelError: 1.18826e-09	AbsError: 1.38364e-10
+  Device: "pn2d"	RelError: 1.49540e-08	AbsError: 6.68059e+08
+    Region: "Silicon"	RelError: 1.49540e-08	AbsError: 6.68059e+08
+      Equation: "ElectronContinuityEquation"	RelError: 5.73748e-09	AbsError: 3.39346e+08
+      Equation: "HoleContinuityEquation"	RelError: 5.64448e-09	AbsError: 3.28713e+08
+      Equation: "PotentialEquation"	RelError: 3.57202e-09	AbsError: 1.46364e-10
 Iteration: 4
-  Device: "pn2d"	RelError: 2.65466e-09	AbsError: 1.78946e+04
-    Region: "Silicon"	RelError: 2.65466e-09	AbsError: 1.78946e+04
-      Equation: "ElectronContinuityEquation"	RelError: 8.90825e-11	AbsError: 2.54291e+03
-      Equation: "HoleContinuityEquation"	RelError: 2.56554e-09	AbsError: 1.53517e+04
-      Equation: "PotentialEquation"	RelError: 4.61053e-14	AbsError: 7.17242e-16
+  Device: "pn2d"	RelError: 2.91378e-09	AbsError: 4.83871e+04
+    Region: "Silicon"	RelError: 2.91378e-09	AbsError: 4.83871e+04
+      Equation: "ElectronContinuityEquation"	RelError: 1.18337e-09	AbsError: 1.41186e+04
+      Equation: "HoleContinuityEquation"	RelError: 1.73035e-09	AbsError: 3.42685e+04
+      Equation: "PotentialEquation"	RelError: 5.79205e-14	AbsError: 6.34417e-15
 Iteration: 5
-  Device: "pn2d"	RelError: 3.05722e-09	AbsError: 5.73474e+02
-    Region: "Silicon"	RelError: 3.05722e-09	AbsError: 5.73474e+02
-      Equation: "ElectronContinuityEquation"	RelError: 2.40985e-09	AbsError: 7.97558e+01
-      Equation: "HoleContinuityEquation"	RelError: 6.47358e-10	AbsError: 4.93718e+02
-      Equation: "PotentialEquation"	RelError: 1.48740e-14	AbsError: 3.37624e-16
-Anode	0.45	3.26462834476e-09	3.32951401205e-09	6.59414235681e-09
-Cathode	0.0	-3.51146517797e-09	-3.08267909064e-09	-6.59414426861e-09
+  Device: "pn2d"	RelError: 3.83435e-09	AbsError: 5.85035e+02
+    Region: "Silicon"	RelError: 3.83435e-09	AbsError: 5.85035e+02
+      Equation: "ElectronContinuityEquation"	RelError: 2.58719e-09	AbsError: 9.04447e+01
+      Equation: "HoleContinuityEquation"	RelError: 1.24715e-09	AbsError: 4.94591e+02
+      Equation: "PotentialEquation"	RelError: 9.73978e-15	AbsError: 3.60057e-16
+Anode	0.45	3.26462834486e-09	3.32951841614e-09	6.594146761e-09
+Cathode	0.0	-3.51146517797e-09	-3.08267909071e-09	-6.59414426868e-09
 Region "Silicon" on device "pn2d" has equations 0:1619
 Device "pn2d" has equations 0:1619
 number of equations 1620
 Iteration: 0
-  Device: "pn2d"	RelError: 1.37859e+01	AbsError: 1.37842e+16
-    Region: "Silicon"	RelError: 1.37859e+01	AbsError: 1.37842e+16
-      Equation: "ElectronContinuityEquation"	RelError: 4.91327e-01	AbsError: 6.19189e+15
-      Equation: "HoleContinuityEquation"	RelError: 4.91409e-01	AbsError: 7.59229e+15
-      Equation: "PotentialEquation"	RelError: 1.28032e+01	AbsError: 2.50063e-02
+  Device: "pn2d"	RelError: 1.36886e+01	AbsError: 1.39927e+16
+    Region: "Silicon"	RelError: 1.36886e+01	AbsError: 1.39927e+16
+      Equation: "ElectronContinuityEquation"	RelError: 4.91726e-01	AbsError: 6.23632e+15
+      Equation: "HoleContinuityEquation"	RelError: 4.91456e-01	AbsError: 7.75636e+15
+      Equation: "PotentialEquation"	RelError: 1.27054e+01	AbsError: 2.50475e-02
 Iteration: 1
-  Device: "pn2d"	RelError: 5.14799e-01	AbsError: 1.44517e+15
-    Region: "Silicon"	RelError: 5.14799e-01	AbsError: 1.44517e+15
-      Equation: "ElectronContinuityEquation"	RelError: 2.53380e-01	AbsError: 7.69759e+14
-      Equation: "HoleContinuityEquation"	RelError: 2.52897e-01	AbsError: 6.75413e+14
-      Equation: "PotentialEquation"	RelError: 8.52201e-03	AbsError: 1.61129e-03
+  Device: "pn2d"	RelError: 5.14798e-01	AbsError: 3.75923e+15
+    Region: "Silicon"	RelError: 5.14798e-01	AbsError: 3.75923e+15
+      Equation: "ElectronContinuityEquation"	RelError: 2.52517e-01	AbsError: 1.35906e+15
+      Equation: "HoleContinuityEquation"	RelError: 2.52463e-01	AbsError: 2.40017e+15
+      Equation: "PotentialEquation"	RelError: 9.81767e-03	AbsError: 1.48948e-03
 Iteration: 2
-  Device: "pn2d"	RelError: 8.64651e-03	AbsError: 2.92651e+12
-    Region: "Silicon"	RelError: 8.64651e-03	AbsError: 2.92651e+12
-      Equation: "ElectronContinuityEquation"	RelError: 3.72411e-03	AbsError: 2.30414e+12
-      Equation: "HoleContinuityEquation"	RelError: 4.91581e-03	AbsError: 6.22372e+11
-      Equation: "PotentialEquation"	RelError: 6.59000e-06	AbsError: 2.62546e-06
+  Device: "pn2d"	RelError: 6.81540e-03	AbsError: 6.86261e+11
+    Region: "Silicon"	RelError: 6.81540e-03	AbsError: 6.86261e+11
+      Equation: "ElectronContinuityEquation"	RelError: 2.91261e-03	AbsError: 4.47529e+11
+      Equation: "HoleContinuityEquation"	RelError: 3.89748e-03	AbsError: 2.38732e+11
+      Equation: "PotentialEquation"	RelError: 5.31069e-06	AbsError: 4.68098e-07
 Iteration: 3
-  Device: "pn2d"	RelError: 6.10555e-08	AbsError: 4.47632e+09
-    Region: "Silicon"	RelError: 6.10555e-08	AbsError: 4.47632e+09
-      Equation: "ElectronContinuityEquation"	RelError: 1.39246e-08	AbsError: 3.87331e+08
-      Equation: "HoleContinuityEquation"	RelError: 1.77389e-08	AbsError: 4.08899e+09
-      Equation: "PotentialEquation"	RelError: 2.93920e-08	AbsError: 3.55570e-10
+  Device: "pn2d"	RelError: 1.60026e-08	AbsError: 2.45489e+08
+    Region: "Silicon"	RelError: 1.60026e-08	AbsError: 2.45489e+08
+      Equation: "ElectronContinuityEquation"	RelError: 9.80193e-09	AbsError: 7.47666e+07
+      Equation: "HoleContinuityEquation"	RelError: 4.97248e-09	AbsError: 1.70723e+08
+      Equation: "PotentialEquation"	RelError: 1.22815e-09	AbsError: 3.58789e-11
 Iteration: 4
-  Device: "pn2d"	RelError: 7.76366e-10	AbsError: 2.13460e+05
-    Region: "Silicon"	RelError: 7.76366e-10	AbsError: 2.13460e+05
-      Equation: "ElectronContinuityEquation"	RelError: 4.45534e-10	AbsError: 7.60700e+04
-      Equation: "HoleContinuityEquation"	RelError: 3.29845e-10	AbsError: 1.37390e+05
-      Equation: "PotentialEquation"	RelError: 9.87314e-13	AbsError: 5.94928e-15
+  Device: "pn2d"	RelError: 2.52898e-10	AbsError: 5.71162e+04
+    Region: "Silicon"	RelError: 2.52898e-10	AbsError: 5.71162e+04
+      Equation: "ElectronContinuityEquation"	RelError: 9.04773e-11	AbsError: 2.54857e+04
+      Equation: "HoleContinuityEquation"	RelError: 1.62039e-10	AbsError: 3.16305e+04
+      Equation: "PotentialEquation"	RelError: 3.81636e-13	AbsError: 1.40100e-15
 Iteration: 5
-  Device: "pn2d"	RelError: 3.40025e-10	AbsError: 6.26329e+02
-    Region: "Silicon"	RelError: 3.40025e-10	AbsError: 6.26329e+02
-      Equation: "ElectronContinuityEquation"	RelError: 7.56017e-11	AbsError: 1.14822e+02
-      Equation: "HoleContinuityEquation"	RelError: 2.64421e-10	AbsError: 5.11507e+02
-      Equation: "PotentialEquation"	RelError: 2.24825e-15	AbsError: 2.43228e-16
-Anode	0.475	8.57416437437e-09	8.49954508291e-09	1.70737094573e-08
-Cathode	0.0	-8.97807005397e-09	-8.09563374846e-09	-1.70737038024e-08
+  Device: "pn2d"	RelError: 3.96134e-10	AbsError: 5.71637e+02
+    Region: "Silicon"	RelError: 3.96134e-10	AbsError: 5.71637e+02
+      Equation: "ElectronContinuityEquation"	RelError: 1.12835e-10	AbsError: 6.36978e+01
+      Equation: "HoleContinuityEquation"	RelError: 2.83296e-10	AbsError: 5.07939e+02
+      Equation: "PotentialEquation"	RelError: 2.58775e-15	AbsError: 9.41731e-17
+Anode	0.475	8.57416437436e-09	8.4995476421e-09	1.70737120165e-08
+Cathode	0.0	-8.97807005397e-09	-8.09563374848e-09	-1.70737038024e-08
 Region "Silicon" on device "pn2d" has equations 0:1619
 Device "pn2d" has equations 0:1619
 number of equations 1620
 Iteration: 0
-  Device: "pn2d"	RelError: 5.07050e+01	AbsError: 1.42734e+16
-    Region: "Silicon"	RelError: 5.07050e+01	AbsError: 1.42734e+16
-      Equation: "ElectronContinuityEquation"	RelError: 4.91365e-01	AbsError: 6.35323e+15
-      Equation: "HoleContinuityEquation"	RelError: 4.91339e-01	AbsError: 7.92017e+15
-      Equation: "PotentialEquation"	RelError: 4.97223e+01	AbsError: 2.50116e-02
+  Device: "pn2d"	RelError: 5.24943e+01	AbsError: 1.49392e+16
+    Region: "Silicon"	RelError: 5.24943e+01	AbsError: 1.49392e+16
+      Equation: "ElectronContinuityEquation"	RelError: 4.91325e-01	AbsError: 6.94264e+15
+      Equation: "HoleContinuityEquation"	RelError: 4.91384e-01	AbsError: 7.99657e+15
+      Equation: "PotentialEquation"	RelError: 5.15116e+01	AbsError: 2.50060e-02
 Iteration: 1
-  Device: "pn2d"	RelError: 5.13422e-01	AbsError: 1.85787e+15
-    Region: "Silicon"	RelError: 5.13422e-01	AbsError: 1.85787e+15
-      Equation: "ElectronContinuityEquation"	RelError: 2.53112e-01	AbsError: 7.27443e+14
-      Equation: "HoleContinuityEquation"	RelError: 2.52883e-01	AbsError: 1.13043e+15
-      Equation: "PotentialEquation"	RelError: 7.42795e-03	AbsError: 1.51375e-03
+  Device: "pn2d"	RelError: 5.40876e-01	AbsError: 2.58673e+15
+    Region: "Silicon"	RelError: 5.40876e-01	AbsError: 2.58673e+15
+      Equation: "ElectronContinuityEquation"	RelError: 2.52809e-01	AbsError: 9.37103e+14
+      Equation: "HoleContinuityEquation"	RelError: 2.52652e-01	AbsError: 1.64963e+15
+      Equation: "PotentialEquation"	RelError: 3.54155e-02	AbsError: 1.19424e-03
 Iteration: 2
-  Device: "pn2d"	RelError: 8.77576e-03	AbsError: 8.67392e+11
-    Region: "Silicon"	RelError: 8.77576e-03	AbsError: 8.67392e+11
-      Equation: "ElectronContinuityEquation"	RelError: 4.64711e-03	AbsError: 3.63339e+11
-      Equation: "HoleContinuityEquation"	RelError: 4.12641e-03	AbsError: 5.04052e+11
-      Equation: "PotentialEquation"	RelError: 2.24741e-06	AbsError: 5.50422e-07
+  Device: "pn2d"	RelError: 6.20745e-03	AbsError: 8.03411e+11
+    Region: "Silicon"	RelError: 6.20745e-03	AbsError: 8.03411e+11
+      Equation: "ElectronContinuityEquation"	RelError: 2.78427e-03	AbsError: 4.51164e+11
+      Equation: "HoleContinuityEquation"	RelError: 3.41277e-03	AbsError: 3.52247e+11
+      Equation: "PotentialEquation"	RelError: 1.04107e-05	AbsError: 5.10844e-07
 Iteration: 3
-  Device: "pn2d"	RelError: 3.69065e-08	AbsError: 2.89413e+08
-    Region: "Silicon"	RelError: 3.69065e-08	AbsError: 2.89413e+08
-      Equation: "ElectronContinuityEquation"	RelError: 1.26602e-08	AbsError: 1.77496e+08
-      Equation: "HoleContinuityEquation"	RelError: 2.38214e-08	AbsError: 1.11917e+08
-      Equation: "PotentialEquation"	RelError: 4.24849e-10	AbsError: 2.98127e-11
+  Device: "pn2d"	RelError: 1.45407e-08	AbsError: 1.09297e+09
+    Region: "Silicon"	RelError: 1.45407e-08	AbsError: 1.09297e+09
+      Equation: "ElectronContinuityEquation"	RelError: 8.78847e-09	AbsError: 1.01334e+08
+      Equation: "HoleContinuityEquation"	RelError: 3.89682e-09	AbsError: 9.91636e+08
+      Equation: "PotentialEquation"	RelError: 1.85540e-09	AbsError: 5.54344e-11
 Iteration: 4
-  Device: "pn2d"	RelError: 1.10707e-10	AbsError: 1.34558e+04
-    Region: "Silicon"	RelError: 1.10707e-10	AbsError: 1.34558e+04
-      Equation: "ElectronContinuityEquation"	RelError: 4.13439e-11	AbsError: 3.26757e+03
-      Equation: "HoleContinuityEquation"	RelError: 6.93241e-11	AbsError: 1.01882e+04
-      Equation: "PotentialEquation"	RelError: 3.92167e-14	AbsError: 7.40291e-16
+  Device: "pn2d"	RelError: 4.13735e-10	AbsError: 1.48426e+04
+    Region: "Silicon"	RelError: 4.13735e-10	AbsError: 1.48426e+04
+      Equation: "ElectronContinuityEquation"	RelError: 1.59422e-10	AbsError: 4.82035e+03
+      Equation: "HoleContinuityEquation"	RelError: 2.54281e-10	AbsError: 1.00223e+04
+      Equation: "PotentialEquation"	RelError: 3.19747e-14	AbsError: 1.79356e-15
 Iteration: 5
-  Device: "pn2d"	RelError: 5.04215e-10	AbsError: 5.54426e+02
-    Region: "Silicon"	RelError: 5.04215e-10	AbsError: 5.54426e+02
-      Equation: "ElectronContinuityEquation"	RelError: 5.16345e-11	AbsError: 7.55678e+01
-      Equation: "HoleContinuityEquation"	RelError: 4.52577e-10	AbsError: 4.78858e+02
-      Equation: "PotentialEquation"	RelError: 3.61259e-15	AbsError: 2.58031e-16
-Anode	0.5	2.25188535918e-08	2.19243535275e-08	4.44432071193e-08
-Cathode	0.0	-2.31828591075e-08	-2.1260345426e-08	-4.44432045335e-08
+  Device: "pn2d"	RelError: 1.38279e-10	AbsError: 5.59534e+02
+    Region: "Silicon"	RelError: 1.38279e-10	AbsError: 5.59534e+02
+      Equation: "ElectronContinuityEquation"	RelError: 1.04864e-11	AbsError: 8.02731e+01
+      Equation: "HoleContinuityEquation"	RelError: 1.27788e-10	AbsError: 4.79261e+02
+      Equation: "PotentialEquation"	RelError: 4.53319e-15	AbsError: 1.16713e-16
+Anode	0.5	2.25188535918e-08	2.19243523135e-08	4.44432059053e-08
+Cathode	0.0	-2.31828591075e-08	-2.12603454261e-08	-4.44432045336e-08

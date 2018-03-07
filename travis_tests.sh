@@ -2,7 +2,7 @@
 set -e
 BASEDIR="${PWD}"
 TAG=${1}
-TAGDIR=devsim_osx_${TAG}
+TAGDIR=devsim_osx_gcc_${TAG}
 TAGTGZ=${TAGDIR}.tgz
 DEVSIM_PY=${TAGDIR}/bin/devsim
 DEVSIM_TCL=${TAGDIR}/bin/devsim_tcl
@@ -19,9 +19,9 @@ set -e
 progname="\$0"
 curdir=\`dirname "\$progname"\`
 ANACONDA_PATH=${ANACONDA_PATH}
-export DYLD_INSERT_LIBRARIES=\${ANACONDA_PATH}/lib/libpython2.7.dylib:\${ANACONDA_PATH}/lib/libmkl_rt.dylib
+export DYLD_LIBRARY_PATH=\${ANACONDA_PATH}/lib
 export PYTHONHOME=\${ANACONDA_PATH}
-# sequential really speeds things up
+# sequential speeds up small examples
 export MKL_NUM_THREADS=1
 \${curdir}/../${DEVSIM_PY} \$*
 EOF
@@ -33,9 +33,9 @@ set -e
 progname="\$0"
 curdir=\`dirname "\$progname"\`
 ANACONDA_PATH=${ANACONDA_PATH}
-export DYLD_INSERT_LIBRARIES=\${ANACONDA_PATH}/lib/libtcl8.6.dylib:\${ANACONDA_PATH}/lib/libmkl_rt.dylib
+export DYLD_LIBRARY_PATH=\${ANACONDA_PATH}/lib
 export TCL_LIBRARY=\${ANACONDA_PATH}/lib/tcl8.6
-# sequential really speeds things up
+# sequential speeds up small examples
 export MKL_NUM_THREADS=1
 \${curdir}/../${DEVSIM_TCL} \$*
 EOF
