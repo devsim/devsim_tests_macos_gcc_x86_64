@@ -23,6 +23,7 @@ curdir=\`dirname "\$progname"\`
 ANACONDA_PATH=${ANACONDA_PATH}
 export DYLD_LIBRARY_PATH=\${ANACONDA_PATH}/lib
 export PYTHONHOME=\${ANACONDA_PATH}
+export PYTHONHASHSEED=0
 # sequential speeds up small examples
 export MKL_NUM_THREADS=1
 \${curdir}/../${DEVSIM_PY} \$*
@@ -37,6 +38,7 @@ curdir=\`dirname "\$progname"\`
 ANACONDA3_PATH=${ANACONDA3_PATH}
 export DYLD_LIBRARY_PATH=\${ANACONDA3_PATH}/lib
 export PYTHONHOME=\${ANACONDA3_PATH}
+export PYTHONHASHSEED=0
 # sequential speeds up small examples
 export MKL_NUM_THREADS=1
 \${curdir}/../${DEVSIM_PY3} \$*
