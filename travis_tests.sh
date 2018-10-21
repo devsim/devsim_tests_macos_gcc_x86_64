@@ -29,7 +29,7 @@ export MKL_NUM_THREADS=1
 source \${ANACONDA_PATH}/bin/activate python27
 export DYLD_FALLBACK_LIBRARY_PATH=\${CONDA_PREFIX}/lib
 export PYTHONPATH="\${curdir}"/../${DEVSIM_LIB}
-python "\$*"
+python "\$@"
 EOF
 chmod +x bin/devsim
 
@@ -44,7 +44,7 @@ export PYTHONHASHSEED=0
 export MKL_NUM_THREADS=1
 source \${ANACONDA_PATH}/bin/activate python37
 export PYTHONPATH="\${curdir}"/../${DEVSIM_LIB}
-python "\$*"
+python "\$@"
 EOF
 chmod +x bin/devsim_py3
 
@@ -58,7 +58,7 @@ export DYLD_LIBRARY_PATH=\${ANACONDA_PATH}/lib
 export TCL_LIBRARY=\${ANACONDA_PATH}/lib/tcl8.6
 # sequential speeds up small examples
 export MKL_NUM_THREADS=1
-\${curdir}/../${DEVSIM_TCL} "\$*"
+\${curdir}/../${DEVSIM_TCL} "\$@"
 EOF
 chmod +x bin/devsim_tcl
 
