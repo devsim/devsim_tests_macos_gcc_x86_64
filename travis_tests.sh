@@ -27,7 +27,7 @@ export PYTHONHASHSEED=0
 # sequential speeds up small examples
 export MKL_NUM_THREADS=1
 source \${ANACONDA_PATH}/bin/activate python27
-export DYLD_FALLBACK_LIBRARY_PATH=${CONDA_PREFIX}/lib
+export DYLD_FALLBACK_LIBRARY_PATH=\${CONDA_PREFIX}/lib
 export PYTHONPATH="\${curdir}"/../${DEVSIM_LIB}
 python \$*
 EOF
