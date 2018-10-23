@@ -9,13 +9,13 @@ TAGTGZ=${TAGDIR}.tgz
 DEVSIM_TCL=${TAGDIR}/bin/devsim_tcl
 DEVSIM_LIB=${TAGDIR}/lib
 ANACONDA_PATH=${HOME}/anaconda
-ANACONDA27_PATH=${ANACONDA_PATH}/envs/python27_devsim
-ANACONDA37_PATH=${ANACONDA_PATH}/envs/python37_devsim
 
 #curl -L -O https://github.com/devsim/devsim/releases/download/${TAG}/${TAGTGZ}
 #tar xzf ${TAGTGZ} 
+UTILITY_PATH=$(source ${ANACONDA_PATH}/bin/activate python27_devsim && echo ${CONDA_PREFIX}/bin)
 
 mkdir -p bin
+(cd bin && ln -sf ${UTILITY_PATH}/cmake && ln -sf ${UTILITY_PATH}/ctest)
 
 cat << EOF > bin/devsim_py27
 #!/bin/bash
@@ -26,7 +26,7 @@ ANACONDA_PATH=${ANACONDA_PATH}
 export PYTHONHASHSEED=0
 # sequential speeds up small examples
 export MKL_NUM_THREADS=1
-source \${ANACONDA_PATH}/bin/activate python27
+source \${ANACONDA_PATH}/bin/activate python27_devsim
 export DYLD_FALLBACK_LIBRARY_PATH=\${CONDA_PREFIX}/lib
 export PYTHONPATH="\${curdir}"/../${DEVSIM_LIB}
 python "\$@"
@@ -42,7 +42,7 @@ ANACONDA_PATH=${ANACONDA_PATH}
 export PYTHONHASHSEED=0
 # sequential speeds up small examples
 export MKL_NUM_THREADS=1
-source \${ANACONDA_PATH}/bin/activate python37
+source \${ANACONDA_PATH}/bin/activate python37_devsim
 export PYTHONPATH="\${curdir}"/../${DEVSIM_LIB}
 python "\$@"
 EOF
@@ -66,6 +66,6 @@ ln -sf ${TAGDIR}/testing .
 ln -sf ${TAGDIR}/examples .
 
 rm -rf run && mkdir run
-(cd run && cmake -DDEVSIM_TEST_GOLDENDIR=${BASEDIR}/goldenresults -DDEVSIM_PY_TEST_EXE=${BASEDIR}/bin/devsim_py27 -DDEVSIM_PY3_TEST_EXE=${BASEDIR}/bin/devsim_py37 -DDEVSIM_TCL_TEST_EXE=${BASEDIR}/bin/devsim_tcl ..)
-(cd run && ctest -j4)
+(cd run && ../bin/cmake -DDEVSIM_TEST_GOLDENDIR=${BASEDIR}/goldenresults -DDEVSIM_PY_TEST_EXE=${BASEDIR}/bin/devsim_py27 -DDEVSIM_PY3_TEST_EXE=${BASEDIR}/bin/devsim_py37 -DDEVSIM_TCL_TEST_EXE=${BASEDIR}/bin/devsim_tcl ..)
+(cd run && ../bin/ctest -j4)
 
