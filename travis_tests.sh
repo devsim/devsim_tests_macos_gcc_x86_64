@@ -9,15 +9,15 @@ TAGTGZ=${TAGDIR}.tgz
 DEVSIM_TCL=${TAGDIR}/bin/devsim_tcl
 DEVSIM_LIB=${TAGDIR}/lib
 ANACONDA_PATH=${HOME}/anaconda
-ANACONDA27_PATH=${ANACONDA_PATH}/envs/python27
-ANACONDA37_PATH=${ANACONDA_PATH}/envs/python37
+ANACONDA27_PATH=${ANACONDA_PATH}/envs/python27_devsim
+ANACONDA37_PATH=${ANACONDA_PATH}/envs/python37_devsim
 
 #curl -L -O https://github.com/devsim/devsim/releases/download/${TAG}/${TAGTGZ}
 #tar xzf ${TAGTGZ} 
 
 mkdir -p bin
 
-cat << EOF > bin/devsim
+cat << EOF > bin/devsim_py27
 #!/bin/bash
 set -e
 progname="\$0"
@@ -31,9 +31,9 @@ export DYLD_FALLBACK_LIBRARY_PATH=\${CONDA_PREFIX}/lib
 export PYTHONPATH="\${curdir}"/../${DEVSIM_LIB}
 python "\$@"
 EOF
-chmod +x bin/devsim
+chmod +x bin/devsim_py27
 
-cat << EOF > bin/devsim_py3
+cat << EOF > bin/devsim_py37
 #!/bin/bash
 set -e
 progname="\$0"
@@ -46,7 +46,7 @@ source \${ANACONDA_PATH}/bin/activate python37
 export PYTHONPATH="\${curdir}"/../${DEVSIM_LIB}
 python "\$@"
 EOF
-chmod +x bin/devsim_py3
+chmod +x bin/devsim_py37
 
 cat << EOF > bin/devsim_tcl
 #!/bin/bash
@@ -66,6 +66,6 @@ ln -sf ${TAGDIR}/testing .
 ln -sf ${TAGDIR}/examples .
 
 rm -rf run && mkdir run
-(cd run && cmake -DDEVSIM_TEST_GOLDENDIR=${BASEDIR}/goldenresults -DDEVSIM_PY_TEST_EXE=${BASEDIR}/bin/devsim -DDEVSIM_PY3_TEST_EXE=${BASEDIR}/bin/devsim_py3 -DDEVSIM_TCL_TEST_EXE=${BASEDIR}/bin/devsim_tcl ..)
+(cd run && cmake -DDEVSIM_TEST_GOLDENDIR=${BASEDIR}/goldenresults -DDEVSIM_PY_TEST_EXE=${BASEDIR}/bin/devsim_py27 -DDEVSIM_PY3_TEST_EXE=${BASEDIR}/bin/devsim_py37 -DDEVSIM_TCL_TEST_EXE=${BASEDIR}/bin/devsim_tcl ..)
 (cd run && ctest -j4)
 
