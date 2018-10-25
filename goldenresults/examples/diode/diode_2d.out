@@ -127,8 +127,8 @@ Iteration: 0
       Equation: "ElectronContinuityEquation"	RelError: 4.65212e-15	AbsError: 1.77604e+02
       Equation: "HoleContinuityEquation"	RelError: 4.17304e-15	AbsError: 1.02141e+02
       Equation: "PotentialEquation"	RelError: 2.79083e-13	AbsError: 6.36174e-17
-top	0.0	-1.63706217515e-30	6.98125824195e-16	6.98125824195e-16
-bot	0.0	1.97202537456e-15	2.78282158687e-30	1.97202537456e-15
+top	0.0	-1.6370621751526933e-30	6.981258241950007e-16	6.98125824194999e-16
+bot	0.0	1.9720253745612595e-15	2.7828215868731393e-30	1.9720253745612623e-15
 Region "MyRegion" on device "MyDevice" has equations 0:1484
 Region "air1" on device "MyDevice" has no equations.
 Region "air2" on device "MyDevice" has no equations.
@@ -176,8 +176,8 @@ Iteration: 6
       Equation: "ElectronContinuityEquation"	RelError: 7.93457e-12	AbsError: 5.73115e+02
       Equation: "HoleContinuityEquation"	RelError: 9.83608e-13	AbsError: 3.06492e+03
       Equation: "PotentialEquation"	RelError: 3.04116e-12	AbsError: 3.01072e-16
-top	0.1	1.00901265136e-14	1.47429635822e-14	2.48330900958e-14
-bot	0.0	-1.31021365886e-14	-1.40467930267e-14	-2.71489296153e-14
+top	0.1	1.0090126513594515e-14	1.4742963582232503e-14	2.4833090095827016e-14
+bot	0.0	-1.3102136588585005e-14	-1.4046793026714933e-14	-2.7148929615299938e-14
 Region "MyRegion" on device "MyDevice" has equations 0:1484
 Region "air1" on device "MyDevice" has no equations.
 Region "air2" on device "MyDevice" has no equations.
@@ -225,8 +225,8 @@ Iteration: 6
       Equation: "ElectronContinuityEquation"	RelError: 4.57123e-12	AbsError: 3.18256e+02
       Equation: "HoleContinuityEquation"	RelError: 4.01617e-13	AbsError: 1.77396e+03
       Equation: "PotentialEquation"	RelError: 1.03789e-13	AbsError: 1.56147e-16
-top	0.2	4.73477378546e-13	6.56420002839e-13	1.12989738139e-12
-bot	0.0	-4.79799689707e-13	-6.48122590414e-13	-1.12792228012e-12
+top	0.2	4.734773785462459e-13	6.564200028390378e-13	1.1298973813852838e-12
+bot	0.0	-4.797996897068781e-13	-6.481225904139338e-13	-1.1279222801208118e-12
 Region "MyRegion" on device "MyDevice" has equations 0:1484
 Region "air1" on device "MyDevice" has no equations.
 Region "air2" on device "MyDevice" has no equations.
@@ -274,8 +274,8 @@ Iteration: 6
       Equation: "ElectronContinuityEquation"	RelError: 2.22736e-12	AbsError: 4.31596e+02
       Equation: "HoleContinuityEquation"	RelError: 1.27969e-13	AbsError: 1.01909e+03
       Equation: "PotentialEquation"	RelError: 1.30738e-14	AbsError: 1.77681e-16
-top	0.3	2.177083703e-11	2.93478989806e-11	5.11187360106e-11
-bot	0.0	-2.18394193285e-11	-2.92746276117e-11	-5.11140469402e-11
+top	0.30000000000000004	2.17708370299895e-11	2.934789898056989e-11	5.1118736010559394e-11
+bot	0.0	-2.1839419328465026e-11	-2.9274627611746496e-11	-5.111404694021152e-11
 Region "MyRegion" on device "MyDevice" has equations 0:1484
 Region "air1" on device "MyDevice" has no equations.
 Region "air2" on device "MyDevice" has no equations.
@@ -323,8 +323,8 @@ Iteration: 6
       Equation: "ElectronContinuityEquation"	RelError: 2.41949e-12	AbsError: 1.80404e+02
       Equation: "HoleContinuityEquation"	RelError: 2.52848e-13	AbsError: 1.83737e+03
       Equation: "PotentialEquation"	RelError: 9.32349e-15	AbsError: 9.08003e-17
-top	0.4	1.0003002857e-09	1.32028851398e-09	2.32058879969e-09
-bot	0.0	-1.00085469699e-09	-1.31973035269e-09	-2.32058504968e-09
+top	0.4	1.0003002857039366e-09	1.320288513983945e-09	2.3205887996878818e-09
+bot	0.0	-1.0008546969936129e-09	-1.3197303526904137e-09	-2.3205850496840267e-09
 Region "MyRegion" on device "MyDevice" has equations 0:1484
 Region "air1" on device "MyDevice" has no equations.
 Region "air2" on device "MyDevice" has no equations.
@@ -372,5 +372,5 @@ Iteration: 6
       Equation: "ElectronContinuityEquation"	RelError: 2.21561e-12	AbsError: 2.26865e+02
       Equation: "HoleContinuityEquation"	RelError: 9.47737e-14	AbsError: 1.01287e+03
       Equation: "PotentialEquation"	RelError: 8.64984e-16	AbsError: 1.03527e-16
-top	0.5	4.59224796297e-08	5.93574362922e-08	1.05279915922e-07
-bot	0.0	-4.59269011642e-08	-5.93530149433e-08	-1.05279916107e-07
+top	0.5	4.5922479629662386e-08	5.9357436292176094e-08	1.0527991592183849e-07
+bot	0.0	-4.592690116417809e-08	-5.9353014943288177e-08	-1.0527991610746626e-07
