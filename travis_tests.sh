@@ -2,7 +2,7 @@
 set -e
 BASEDIR="${PWD}"
 TAG=${1}
-TAGDIR=devsim_osx_gcc_${TAG}
+TAGDIR=devsim_macos_${TAG}
 TAGTGZ=${TAGDIR}.tgz
 #DEVSIM_PY=${TAGDIR}/bin/devsim
 #DEVSIM_PY3=${TAGDIR}/bin/devsim_py3
