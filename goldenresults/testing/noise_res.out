@@ -97,9 +97,9 @@ Iteration: 1
     Region: "MyRegion"	RelError: 1.82739e-08	AbsError: 1.27304e+01
       Equation: "ElectronContinuityEquation"	RelError: 1.27304e-16	AbsError: 1.27304e+01
       Equation: "PotentialEquation"	RelError: 1.82739e-08	AbsError: 1.82739e-18
-  Circuit: 	RelError: 6.40949e-15	AbsError: 6.40949e-25
+  Circuit: 	RelError: 6.50810e-15	AbsError: 6.50810e-25
 Circuit Solution:
-V1.I	-9.86076e-27
+V1.I	-1.97215e-26
 topbias	0
 Device: MyDevice Contact: bot
 	Electron 0.0
