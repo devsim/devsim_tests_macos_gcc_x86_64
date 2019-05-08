@@ -27,5 +27,5 @@ Iteration: 1
   Device: "MyDevice"	RelError: 3.65690e-16	AbsError: 1.60903e-16
     Region: "MyRegion"	RelError: 3.65690e-16	AbsError: 1.60903e-16
       Equation: "ψEquation"	RelError: 3.65690e-16	AbsError: 1.60903e-16
-3.4515e-13
--3.4515e-13
+3.451499999999999e-13
+-3.4514999999999995e-13
