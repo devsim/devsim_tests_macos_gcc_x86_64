@@ -93,14 +93,14 @@ Iteration: 3
 Circuit Solution:
 V1.I	1.19347e-17
 topbias	5.40926e-34
-Device: MyDevice Contact: bot
-	Electron 0.0
-	Hole 0
-	Total 0.0
-Device: MyDevice Contact: top
-	Electron -1.8565120000000007e-16
-	Hole 0
-	Total -1.8565120000000007e-16
+Contact: top
+Electron -1.85651e-16
+Hole 0
+Total -1.85651e-16
+Contact: bot
+Electron 0
+Hole 0
+Total 0
 Region "MyRegion" on device "MyDevice" has equations 0:241
 Region "air1" on device "MyDevice" has no equations.
 Region "air2" on device "MyDevice" has no equations.
@@ -126,14 +126,14 @@ Iteration: 1
 Circuit Solution:
 V1.I	-0.0064
 topbias	0.001
-Device: MyDevice Contact: bot
-	Electron -0.006399999999999989
-	Hole 0
-	Total -0.006399999999999989
-Device: MyDevice Contact: top
-	Electron 0.0064000000000000185
-	Hole 0
-	Total 0.0064000000000000185
+Contact: top
+Electron 0.0064
+Hole 0
+Total 0.0064
+Contact: bot
+Electron -0.0064
+Hole 0
+Total -0.0064
 Region "MyRegion" on device "MyDevice" has equations 0:241
 Region "air1" on device "MyDevice" has no equations.
 Region "air2" on device "MyDevice" has no equations.
