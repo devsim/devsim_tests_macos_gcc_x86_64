@@ -49,13 +49,13 @@ Iteration: 1
       Equation: "ElectronContinuityEquation"	RelError: 1.59018e-21	AbsError: 1.59018e-05
       Equation: "PotentialEquation"	RelError: 4.11750e-13	AbsError: 4.11856e-23
 Contact: top
-Electron 0.0
+Electron 0
 Hole 0
-Total 0.0
+Total 0
 Contact: bot
-Electron 0.0
+Electron 0
 Hole 0
-Total 0.0
+Total 0
 Region "MyRegion" on device "MyDevice" has equations 0:21
 Device "MyDevice" has equations 0:21
 number of equations 22
@@ -70,13 +70,13 @@ Iteration: 1
       Equation: "ElectronContinuityEquation"	RelError: 1.62116e-21	AbsError: 1.62116e-05
       Equation: "PotentialEquation"	RelError: 7.48095e-15	AbsError: 1.21702e-17
 Contact: top
-Electron 0.00640000000000066
+Electron 0.0064
 Hole 0
-Total 0.00640000000000066
+Total 0.0064
 Contact: bot
-Electron -0.006400000000000655
+Electron -0.0064
 Hole 0
-Total -0.006400000000000655
+Total -0.0064
 Region "MyRegion" on device "MyDevice" has equations 0:21
 Device "MyDevice" has equations 0:21
 number of equations 22
@@ -91,13 +91,13 @@ Iteration: 1
       Equation: "ElectronContinuityEquation"	RelError: 1.65265e-21	AbsError: 1.65265e-05
       Equation: "PotentialEquation"	RelError: 1.69404e-15	AbsError: 1.09775e-17
 Contact: top
-Electron 0.01280000000000132
+Electron 0.0128
 Hole 0
-Total 0.01280000000000132
+Total 0.0128
 Contact: bot
-Electron -0.012800000000001277
+Electron -0.0128
 Hole 0
-Total -0.012800000000001277
+Total -0.0128
 Region "MyRegion" on device "MyDevice" has equations 0:21
 Device "MyDevice" has equations 0:21
 number of equations 22
@@ -112,13 +112,13 @@ Iteration: 1
       Equation: "ElectronContinuityEquation"	RelError: 1.68424e-21	AbsError: 1.68424e-05
       Equation: "PotentialEquation"	RelError: 1.27781e-15	AbsError: 2.68340e-17
 Contact: top
-Electron 0.019200000000001917
+Electron 0.0192
 Hole 0
-Total 0.019200000000001917
+Total 0.0192
 Contact: bot
-Electron -0.0192000000000019
+Electron -0.0192
 Hole 0
-Total -0.0192000000000019
+Total -0.0192
 Region "MyRegion" on device "MyDevice" has equations 0:21
 Device "MyDevice" has equations 0:21
 number of equations 22
@@ -133,13 +133,13 @@ Iteration: 1
       Equation: "ElectronContinuityEquation"	RelError: 1.71627e-21	AbsError: 1.71627e-05
       Equation: "PotentialEquation"	RelError: 1.13840e-15	AbsError: 1.14925e-17
 Contact: top
-Electron 0.025600000000002544
+Electron 0.0256
 Hole 0
-Total 0.025600000000002544
+Total 0.0256
 Contact: bot
-Electron -0.02560000000000252
+Electron -0.0256
 Hole 0
-Total -0.02560000000000252
+Total -0.0256
 Region "MyRegion" on device "MyDevice" has equations 0:21
 Device "MyDevice" has equations 0:21
 number of equations 22
@@ -154,13 +154,13 @@ Iteration: 1
       Equation: "ElectronContinuityEquation"	RelError: 1.74813e-21	AbsError: 1.74813e-05
       Equation: "PotentialEquation"	RelError: 1.09866e-15	AbsError: 2.62377e-17
 Contact: top
-Electron 0.03200000000000317
+Electron 0.032
 Hole 0
-Total 0.03200000000000317
+Total 0.032
 Contact: bot
-Electron -0.03200000000000324
+Electron -0.032
 Hole 0
-Total -0.03200000000000324
+Total -0.032
 Region "MyRegion" on device "MyDevice" has equations 0:21
 Device "MyDevice" has equations 0:21
 number of equations 22
@@ -175,13 +175,13 @@ Iteration: 1
       Equation: "ElectronContinuityEquation"	RelError: 1.78141e-21	AbsError: 1.78141e-05
       Equation: "PotentialEquation"	RelError: 1.31911e-15	AbsError: 1.35525e-17
 Contact: top
-Electron 0.038400000000003855
+Electron 0.0384
 Hole 0
-Total 0.038400000000003855
+Total 0.0384
 Contact: bot
-Electron -0.03840000000000385
+Electron -0.0384
 Hole 0
-Total -0.03840000000000385
+Total -0.0384
 Region "MyRegion" on device "MyDevice" has equations 0:21
 Device "MyDevice" has equations 0:21
 number of equations 22
@@ -196,13 +196,13 @@ Iteration: 1
       Equation: "ElectronContinuityEquation"	RelError: 1.81500e-21	AbsError: 1.81500e-05
       Equation: "PotentialEquation"	RelError: 1.03773e-15	AbsError: 9.43260e-18
 Contact: top
-Electron 0.04480000000000445
+Electron 0.0448
 Hole 0
-Total 0.04480000000000445
+Total 0.0448
 Contact: bot
-Electron -0.04480000000000444
+Electron -0.0448
 Hole 0
-Total -0.04480000000000444
+Total -0.0448
 Region "MyRegion" on device "MyDevice" has equations 0:21
 Device "MyDevice" has equations 0:21
 number of equations 22
@@ -217,13 +217,13 @@ Iteration: 1
       Equation: "ElectronContinuityEquation"	RelError: 1.84822e-21	AbsError: 1.84822e-05
       Equation: "PotentialEquation"	RelError: 2.57498e-16	AbsError: 1.58293e-17
 Contact: top
-Electron 0.0512000000000051
+Electron 0.0512
 Hole 0
-Total 0.0512000000000051
+Total 0.0512
 Contact: bot
-Electron -0.05120000000000513
+Electron -0.0512
 Hole 0
-Total -0.05120000000000513
+Total -0.0512
 Region "MyRegion" on device "MyDevice" has equations 0:21
 Device "MyDevice" has equations 0:21
 number of equations 22
@@ -238,13 +238,13 @@ Iteration: 1
       Equation: "ElectronContinuityEquation"	RelError: 1.88275e-21	AbsError: 1.88275e-05
       Equation: "PotentialEquation"	RelError: 5.30050e-16	AbsError: 2.29851e-17
 Contact: top
-Electron 0.05760000000000576
+Electron 0.0576
 Hole 0
-Total 0.05760000000000576
+Total 0.0576
 Contact: bot
-Electron -0.05760000000000572
+Electron -0.0576
 Hole 0
-Total -0.05760000000000572
+Total -0.0576
 Region "MyRegion" on device "MyDevice" has equations 0:21
 Device "MyDevice" has equations 0:21
 number of equations 22
@@ -259,13 +259,13 @@ Iteration: 1
       Equation: "ElectronContinuityEquation"	RelError: 1.91664e-21	AbsError: 1.91664e-05
       Equation: "PotentialEquation"	RelError: 3.46949e-16	AbsError: 1.21430e-17
 Contact: top
-Electron 0.06400000000000644
+Electron 0.064
 Hole 0
-Total 0.06400000000000644
+Total 0.064
 Contact: bot
-Electron -0.06400000000000641
+Electron -0.064
 Hole 0
-Total -0.06400000000000641
+Total -0.064
 Electrons
 1.00000e+16
 1.00000e+16
@@ -302,17 +302,6 @@ ElectricField
 1.00000e-01
 1.00000e-01
 ElectronCurrent
-6.40000e-02
-6.40000e-02
-6.40000e-02
-6.40000e-02
-6.40000e-02
-6.40000e-02
-6.40000e-02
-6.40000e-02
-6.40000e-02
-6.40000e-02
-topnodeelectroncurrent
 6.40000e-02
 6.40000e-02
 6.40000e-02

@@ -12,7 +12,6 @@ ANACONDA_PATH=${HOME}/anaconda
 
 #curl -L -O https://github.com/devsim/devsim/releases/download/${TAG}/${TAGTGZ}
 #tar xzf ${TAGTGZ} 
-#UTILITY_PATH=$(source ${ANACONDA_PATH}/bin/activate python37_devsim && echo ${CONDA_PREFIX}/bin)
 UTILITY_PATH=${ANACONDA_PATH}/bin/
 
 mkdir -p bin
@@ -24,34 +23,16 @@ set -e
 progname="\$0"
 curdir=\`dirname "\${progname}"\`
 ANACONDA_PATH=${ANACONDA_PATH}
-source \${ANACONDA_PATH}/bin/activate python37_devsim
 export PYTHONHASHSEED=0
 # sequential speeds up small examples
 export MKL_NUM_THREADS=1
+source \${ANACONDA_PATH}/bin/activate python37_devsim
 export PYTHONPATH="\${curdir}"/../${DEVSIM_LIB}
 python "\$@"
 EOF
 chmod +x bin/devsim_py37
-
-cat << EOF > bin/devsim_tcl
-#!/bin/bash
-set -e
-progname="\$0"
-curdir=\`dirname "\${progname}"\`
-ANACONDA_PATH=${ANACONDA_PATH}
-source \${ANACONDA_PATH}/bin/activate python37_devsim
-export DYLD_LIBRARY_PATH=\${CONDA_PREFIX}/lib
-export TCL_LIBRARY=\${CONDA_PREFIX}/lib/tcl8.6
-# sequential speeds up small examples
-export MKL_NUM_THREADS=1
-\${curdir}/../${DEVSIM_TCL} "\$@"
-EOF
-chmod +x bin/devsim_tcl
-
-ln -sf ${TAGDIR}/testing .
-ln -sf ${TAGDIR}/examples .
-
+cp CMakeLists.txt ${TAGDIR}/
 rm -rf run && mkdir run
-(cd run && ../bin/cmake -DDEVSIM_TEST_GOLDENDIR=${BASEDIR}/goldenresults -DDEVSIM_PY3_TEST_EXE=${BASEDIR}/bin/devsim_py37 -DDEVSIM_TCL_TEST_EXE=${BASEDIR}/bin/devsim_tcl ..)
+(cd run && ../bin/cmake -DDEVSIM_TEST_GOLDENDIR=${BASEDIR}/goldenresults -DDEVSIM_PY3_TEST_EXE=${BASEDIR}/bin/devsim_py37 ../${TAGDIR})
 (cd run && (../bin/ctest -j4 --no-compress-output -T Test || true))
 
