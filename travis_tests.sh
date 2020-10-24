@@ -10,7 +10,7 @@ DEVSIM_LIB=${TAGDIR}/lib
 #tar xzf ${TAGTGZ} 
 
 mkdir -p bin
-cat << EOF > bin/devsim_py37
+cat << EOF > bin/devsim_py38
 #!/bin/bash
 set -e
 progname="\$0"
@@ -21,9 +21,9 @@ export MKL_NUM_THREADS=1
 export PYTHONPATH="\${curdir}"/../${DEVSIM_LIB}
 python "\$@"
 EOF
-chmod +x bin/devsim_py37
+chmod +x bin/devsim_py38
 cp CMakeLists.txt ${TAGDIR}/
 rm -rf run && mkdir run
-(cd run && cmake -DDEVSIM_TEST_GOLDENDIR=${BASEDIR}/goldenresults -DDEVSIM_PY3_TEST_EXE=${BASEDIR}/bin/devsim_py37 ../${TAGDIR})
+(cd run && cmake -DDEVSIM_TEST_GOLDENDIR=${BASEDIR}/goldenresults -DDEVSIM_PY3_TEST_EXE=${BASEDIR}/bin/devsim_py38 ../${TAGDIR})
 (cd run && (ctest -j4 --no-compress-output -T Test || true))
 
