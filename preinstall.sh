@@ -6,6 +6,6 @@ if [ ! -d ${HOME}/anaconda ]; then
 fi
 
 ${HOME}/anaconda/bin/conda create  -y --name python38_devsim python=3.8
-# mkl is implicit
-${HOME}/anaconda/bin/conda install -y --name python38_devsim numpy mkl cmake
+# mkl is not implicit to mkl see: https://mruss.dev/numpy-mkl/
+${HOME}/anaconda/bin/conda install -y --name python38_devsim numpy mkl cmake blas=*=*mkl
 
