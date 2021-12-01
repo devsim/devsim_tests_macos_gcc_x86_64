@@ -34,15 +34,6 @@ Adding 41 edges with 19 duplicates removed
 Adding 20 triangles  with 0 duplicate removed
 Contact bot in region MyRegion with 11 nodes
 Contact top in region MyRegion with 11 nodes
-Region "MyRegion" on device "MyDevice" has equations 0:120
-Region "air1" on device "MyDevice" has no equations.
-Region "air2" on device "MyDevice" has no equations.
-Device "MyDevice" has equations 0:120
-0	18446744073709551615	ground
-GND	18446744073709551615	ground
-V1.I	0	mna
-topbias	1	default
-Circuit  has equations 121:122
 creating solution dcop with 2 nodes
 number of equations 123
 creating solution dcop_prev with 2 nodes
@@ -51,20 +42,8 @@ Iteration: 0
     Region: "MyRegion"	RelError: 0.00000e+00	AbsError: 0.00000e+00
       Equation: "PotentialEquation"	RelError: 0.00000e+00	AbsError: 0.00000e+00
   Circuit: 	RelError: 0.00000e+00	AbsError: 0.00000e+00
-Circuit Solution:
-V1.I	0
-topbias	0
 Warning: Replacing equation with equation of the same name.
 Region: MyRegion, Equation: PotentialEquation, Variable: Potential
-Region "MyRegion" on device "MyDevice" has equations 0:241
-Region "air1" on device "MyDevice" has no equations.
-Region "air2" on device "MyDevice" has no equations.
-Device "MyDevice" has equations 0:241
-0	18446744073709551615	ground
-GND	18446744073709551615	ground
-V1.I	0	mna
-topbias	1	default
-Circuit  has equations 242:243
 number of equations 244
 Iteration: 0
   Device: "MyDevice"	RelError: 2.46191e-06	AbsError: 9.92000e+02
@@ -90,9 +69,6 @@ Iteration: 3
       Equation: "ElectronContinuityEquation"	RelError: 1.46132e-16	AbsError: 1.46132e+01
       Equation: "PotentialEquation"	RelError: 1.95138e-08	AbsError: 1.95139e-18
   Circuit: 	RelError: 7.95648e-08	AbsError: 7.95648e-18
-Circuit Solution:
-V1.I	1.19347e-17
-topbias	5.40926e-34
 Contact: top
 Electron -1.85651e-16
 Hole 0
@@ -101,15 +77,6 @@ Contact: bot
 Electron 0
 Hole 0
 Total 0
-Region "MyRegion" on device "MyDevice" has equations 0:241
-Region "air1" on device "MyDevice" has no equations.
-Region "air2" on device "MyDevice" has no equations.
-Device "MyDevice" has equations 0:241
-0	18446744073709551615	ground
-GND	18446744073709551615	ground
-V1.I	0	mna
-topbias	1	default
-Circuit  has equations 242:243
 number of equations 244
 Iteration: 0
   Device: "MyDevice"	RelError: 1.00000e+00	AbsError: 1.67852e+01
@@ -123,9 +90,6 @@ Iteration: 1
       Equation: "ElectronContinuityEquation"	RelError: 1.83334e-16	AbsError: 1.83334e+01
       Equation: "PotentialEquation"	RelError: 9.58528e-15	AbsError: 3.78795e-18
   Circuit: 	RelError: 7.73299e-15	AbsError: 4.97080e-17
-Circuit Solution:
-V1.I	-0.0064
-topbias	0.001
 Contact: top
 Electron 0.0064
 Hole 0
@@ -134,15 +98,6 @@ Contact: bot
 Electron -0.0064
 Hole 0
 Total -0.0064
-Region "MyRegion" on device "MyDevice" has equations 0:241
-Region "air1" on device "MyDevice" has no equations.
-Region "air2" on device "MyDevice" has no equations.
-Device "MyDevice" has equations 0:241
-0	18446744073709551615	ground
-GND	18446744073709551615	ground
-V1.I	0	mna
-topbias	1	default
-Circuit  has equations 242:243
 number of equations 244
 Iteration: 0
   Device: "MyDevice"	RelError: 1.54783e-14	AbsError: 1.45279e+01
@@ -150,18 +105,6 @@ Iteration: 0
       Equation: "ElectronContinuityEquation"	RelError: 1.45279e-16	AbsError: 1.45279e+01
       Equation: "PotentialEquation"	RelError: 1.53330e-14	AbsError: 4.39703e-18
   Circuit: 	RelError: 4.00650e-15	AbsError: 2.56416e-17
-Circuit Solution:
-V1.I	-0.0064
-topbias	0.001
-Region "MyRegion" on device "MyDevice" has equations 0:241
-Region "air1" on device "MyDevice" has no equations.
-Region "air2" on device "MyDevice" has no equations.
-Device "MyDevice" has equations 0:241
-0	18446744073709551615	ground
-GND	18446744073709551615	ground
-V1.I	0	mna
-topbias	1	default
-Circuit  has equations 242:243
 number of equations 244
 Iteration: 0
   Device: "MyDevice"	RelError: 1.28134e-14	AbsError: 1.99305e+01
@@ -169,18 +112,6 @@ Iteration: 0
       Equation: "ElectronContinuityEquation"	RelError: 1.99305e-16	AbsError: 1.99305e+01
       Equation: "PotentialEquation"	RelError: 1.26141e-14	AbsError: 4.85862e-18
   Circuit: 	RelError: 4.06197e-16	AbsError: 2.59966e-18
-Circuit Solution:
-V1.I	-0.0064
-topbias	0.001
-Region "MyRegion" on device "MyDevice" has equations 0:241
-Region "air1" on device "MyDevice" has no equations.
-Region "air2" on device "MyDevice" has no equations.
-Device "MyDevice" has equations 0:241
-0	18446744073709551615	ground
-GND	18446744073709551615	ground
-V1.I	0	mna
-topbias	1	default
-Circuit  has equations 242:243
 number of equations 244
 Iteration: 0
   Device: "MyDevice"	RelError: 1.67322e-14	AbsError: 1.50324e+01
@@ -188,18 +119,6 @@ Iteration: 0
       Equation: "ElectronContinuityEquation"	RelError: 1.50324e-16	AbsError: 1.50324e+01
       Equation: "PotentialEquation"	RelError: 1.65818e-14	AbsError: 5.25033e-18
   Circuit: 	RelError: 4.71659e-16	AbsError: 3.01862e-18
-Circuit Solution:
-V1.I	-0.0064
-topbias	0.001
-Region "MyRegion" on device "MyDevice" has equations 0:241
-Region "air1" on device "MyDevice" has no equations.
-Region "air2" on device "MyDevice" has no equations.
-Device "MyDevice" has equations 0:241
-0	18446744073709551615	ground
-GND	18446744073709551615	ground
-V1.I	0	mna
-topbias	1	default
-Circuit  has equations 242:243
 number of equations 244
 Iteration: 0
   Device: "MyDevice"	RelError: 1.90394e-14	AbsError: 1.41130e+01
@@ -207,18 +126,6 @@ Iteration: 0
       Equation: "ElectronContinuityEquation"	RelError: 1.41130e-16	AbsError: 1.41130e+01
       Equation: "PotentialEquation"	RelError: 1.88982e-14	AbsError: 5.38439e-18
   Circuit: 	RelError: 9.92540e-15	AbsError: 6.35226e-17
-Circuit Solution:
-V1.I	-0.0064
-topbias	0.001
-Region "MyRegion" on device "MyDevice" has equations 0:241
-Region "air1" on device "MyDevice" has no equations.
-Region "air2" on device "MyDevice" has no equations.
-Device "MyDevice" has equations 0:241
-0	18446744073709551615	ground
-GND	18446744073709551615	ground
-V1.I	0	mna
-topbias	1	default
-Circuit  has equations 242:243
 Circuit output V1.I has equation 242.
 creating solution noise_V1.I_real with 2 nodes
 creating solution noise_V1.I_imag with 2 nodes
@@ -226,8 +133,6 @@ Device: MyDevice	Region: MyRegion	Creating: V1.I_ElectronContinuityEquation_real
 Device: MyDevice	Region: MyRegion	Creating: V1.I_ElectronContinuityEquation_imag
 Device: MyDevice	Region: MyRegion	Creating: V1.I_PotentialEquation_real
 Device: MyDevice	Region: MyRegion	Creating: V1.I_PotentialEquation_imag
-Setting V1.I = (-6.4,-4.5409e-21)
-Setting topbias = (1,1.32527e-24)
 Noise Iteration:
 number of equations 244
-9.547760076195744e-20
+9.547760076195753e-20
