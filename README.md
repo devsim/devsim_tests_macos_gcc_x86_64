@@ -8,11 +8,9 @@ Results are sensitive to the CPU and system libraries that may be installed on y
 
 All tests pass on Mac OS X 10.13 on a Macbook Pro 2014.
 
-For example:
-
+Trial run from a Anaconda Python environment:
 ```
-cd devsim_tests_macos_gcc_x86_x64
 source preinstall.sh
-tar xzvf devsim_macos_v1.7.0.tgz
-bash travis_tests.sh v1.7.0
+bash travis_tests.sh v2.4.0
 ```
+
